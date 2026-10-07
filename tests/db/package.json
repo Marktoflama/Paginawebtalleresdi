@@ -1,0 +1,14 @@
+{
+  "name": "taller-reservas-db-tests",
+  "private": true,
+  "type": "module",
+  "description": "Runs supabase/migrations on a throwaway PostgreSQL 17 with Supabase shims and checks the booking guarantees. Kept out of the app's dependencies on purpose.",
+  "scripts": {
+    "test": "node run.mjs",
+    "test:mutation": "node run.mjs --mutate"
+  },
+  "dependencies": {
+    "embedded-postgres": "17.10.0-beta.17",
+    "postgres": "3.4.9"
+  }
+}

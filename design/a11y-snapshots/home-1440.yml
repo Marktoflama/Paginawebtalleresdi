@@ -1,0 +1,281 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - link "Skip to content" [ref=f6e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=f6e4]:
+      - link [ref=f6e6] [cursor=pointer]:
+        - /url: https://esdi.es/
+        - img "ESDI" [ref=f6e7]
+      - navigation "Main Navigation" [ref=f6e8]:
+        - button "Menú" [ref=f6e9] [cursor=pointer]
+        - button "es" [ref=f6e11] [cursor=pointer]
+    - main [ref=f6e14]:
+      - generic [ref=f6e15]: Tu navegador no soporta el tag de video.
+      - heading [level=1] [ref=f6e20]:
+        - paragraph [ref=f6e21]: ESCOLA SUPERIOR DE DISSENY
+      - paragraph [ref=f6e24]:
+        - link "ESDI Escola Superior de Disseny" [ref=f6e25] [cursor=pointer]:
+          - /url: "#"
+        - text: es una escuela universitaria de diseño adscrita a la Universidad Ramon Llull que nace en 1989 como iniciativa de la
+        - link "Fundació del Disseny Tèxtil FUNDIT" [ref=f6e26] [cursor=pointer]:
+          - /url: "#"
+        - text: .
+      - generic [ref=f6e27]:
+        - heading [level=2] [ref=f6e28]:
+          - paragraph [ref=f6e29]: OFERTA ACADÉMICA
+        - list [ref=f6e31]:
+          - listitem [ref=f6e32]:
+            - link [ref=f6e33] [cursor=pointer]:
+              - /url: https://esdi.es/estudios/grado-en-diseno/
+              - heading [level=3] [ref=f6e34]:
+                - paragraph [ref=f6e35]: GRADO EN DISEÑO
+              - paragraph [ref=f6e37]: Menciones en Gráfico, Interiores, Producto, Moda, Audiovisual
+          - listitem [ref=f6e38]:
+            - link [ref=f6e39] [cursor=pointer]:
+              - /url: https://esdi.es/estudios/masters-y-postgrados/
+              - heading [level=3] [ref=f6e40]:
+                - paragraph [ref=f6e41]: MÁSTERS Y POSTGRADOS
+              - paragraph [ref=f6e43]: Comisariado, Estilismo, Fashion management, UX, Dirección de arte, IA, Project management, Retail
+          - listitem [ref=f6e44]:
+            - link [ref=f6e45] [cursor=pointer]:
+              - /url: https://esdi.es/estudios/ciclos-formativos/
+              - heading [level=3] [ref=f6e46]:
+                - paragraph [ref=f6e47]: CICLOS FORMATIVOS
+              - paragraph [ref=f6e49]: Asesoría de imagen, Patronaje y moda, Vestuario a medida, Animación 3D, Estilismo
+          - listitem [ref=f6e50]:
+            - link [ref=f6e51] [cursor=pointer]:
+              - /url: https://esdi.es/estudios/cursos/
+              - heading [level=3] [ref=f6e52]:
+                - paragraph [ref=f6e53]: CURSOS
+              - paragraph [ref=f6e55]: Cursos de verano, Costura, Denim, Ilustración, Color, CLO 3D, Fermat, Artesanía
+      - generic [ref=f6e56]:
+        - heading "RECONOCIMIENTOS" [level=2] [ref=f6e57]
+        - generic [ref=f6e59]:
+          - generic [ref=f6e60]: PREMIOS GANADOS POR NUESTROS ALUMNOS
+          - list [ref=f6e61]:
+            - listitem [ref=f6e62]:
+              - paragraph [ref=f6e63]: ADCE Student Awards
+            - listitem [ref=f6e64]:
+              - paragraph [ref=f6e65]: Apolda European Design Awards
+            - listitem [ref=f6e66]:
+              - paragraph [ref=f6e67]: James Dyson Award
+            - listitem [ref=f6e68]:
+              - paragraph [ref=f6e69]: Global Footwear Awards
+            - listitem [ref=f6e70]:
+              - paragraph [ref=f6e71]: ADG Laus
+            - listitem [ref=f6e72]:
+              - paragraph [ref=f6e73]: Delta ADI-FAD
+            - listitem [ref=f6e74]:
+              - paragraph [ref=f6e75]: Habitàcola ARQUIN-FAD
+            - listitem [ref=f6e76]:
+              - paragraph [ref=f6e77]: David Delfin
+            - listitem [ref=f6e78]:
+              - paragraph [ref=f6e79]: Selected Bilbao Bizkaia
+            - listitem [ref=f6e80]:
+              - paragraph [ref=f6e81]: Gaudeamus Projecta
+            - listitem [ref=f6e82]:
+              - paragraph [ref=f6e83]: Code 41 Talent
+            - listitem [ref=f6e84]:
+              - paragraph [ref=f6e85]: Villanueva Showing Festival
+      - generic [ref=f6e88]:
+        - link [ref=f6e89] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - paragraph [ref=f6e92]: ESDI X AXOR by Anna, David y Edda
+        - link [ref=f6e93] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - paragraph [ref=f6e96]: LA NÁUSEA by Sandra Hernández
+        - link [ref=f6e97] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - img "proyecto final de grado en diseño de moda en ESDI coupé Javi Guijarro" [ref=f6e98]
+          - paragraph [ref=f6e101]: COUPÉ by Javier Guijarro
+        - link [ref=f6e102] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - img "Foto editorial de una sandalia conceptual sobre roca con fondo amarillo." [ref=f6e103]
+          - paragraph [ref=f6e106]: SOLEA by Paula Simón
+      - generic [ref=f6e107]:
+        - heading [level=2] [ref=f6e108]:
+          - paragraph [ref=f6e109]: Agenda
+        - table [ref=f6e111]:
+          - rowgroup [ref=f6e112]:
+            - row [ref=f6e113]:
+              - cell "16 Oct 26" [ref=f6e114]
+              - 'cell "Evento BDW26: ESDI X NTT DATA" [ref=f6e116]':
+                - generic [ref=f6e117]: Evento
+                - generic [ref=f6e118]: "BDW26: ESDI X NTT DATA"
+              - cell [ref=f6e119]:
+                - link "Reserva tu plaza" [ref=f6e120] [cursor=pointer]:
+                  - /url: https://www.eventbrite.com/e/esdi-x-ntt-data-presentan-prototype-test-iterate-tickets-1999250265362
+            - row [ref=f6e121]:
+              - cell "19 Oct 26" [ref=f6e122]
+              - 'cell "Evento / Masterclass BDW26: ESDI X LATENT" [ref=f6e124]':
+                - generic [ref=f6e125]: Evento / Masterclass
+                - generic [ref=f6e126]: "BDW26: ESDI X LATENT"
+              - cell [ref=f6e127]:
+                - link "Reserva tu plaza" [ref=f6e128] [cursor=pointer]:
+                  - /url: https://www.eventbrite.es/e/esdi-x-latent-presenten-print-is-art-tickets-1998957914934
+            - row [ref=f6e129]:
+              - cell "22 Oct 26" [ref=f6e130]
+              - 'cell "Visita BDW26: ESDI X KRONOSPAN" [ref=f6e132]':
+                - generic [ref=f6e133]: Visita
+                - generic [ref=f6e134]: "BDW26: ESDI X KRONOSPAN"
+              - cell [ref=f6e135]
+            - row [ref=f6e136]:
+              - cell "22 Oct 26" [ref=f6e137]
+              - 'cell "Masterclass HAMLET OBSESSSIONS VOL. II: 7 TENDENCIAS QUE MARCAN EL MOMENTO" [ref=f6e139]':
+                - generic [ref=f6e140]: Masterclass
+                - generic [ref=f6e141]: "HAMLET OBSESSSIONS VOL. II: 7 TENDENCIAS QUE MARCAN EL MOMENTO"
+              - cell [ref=f6e142]:
+                - link "Reserva tu plaza" [ref=f6e143] [cursor=pointer]:
+                  - /url: https://www.eventbrite.es/e/esdi-afterclass-x-hamlet-7-tendencias-para-entender-el-contexto-cultural-tickets-2002940768757
+            - row [ref=f6e144]:
+              - cell "27 Nov 26" [ref=f6e145]
+              - cell "Puertas Abiertas OPEN DAY GRADO EN DISEÑO + CFGS SABADELL" [ref=f6e147]:
+                - generic [ref=f6e148]: Puertas Abiertas
+                - generic [ref=f6e149]: OPEN DAY GRADO EN DISEÑO + CFGS SABADELL
+              - cell [ref=f6e150]:
+                - link "Reserva tu plaza" [ref=f6e151] [cursor=pointer]:
+                  - /url: https://www.eventbrite.es/e/entradas-open-day-presencial-grado-en-diseno-cfgs-noviembre-2026-2000963457566
+            - row [ref=f6e152]:
+              - cell "15 Ene 27" [ref=f6e153]
+              - cell "Puertas Abiertas OPEN DAY CFGS BARCELONA" [ref=f6e155]:
+                - generic [ref=f6e156]: Puertas Abiertas
+                - generic [ref=f6e157]: OPEN DAY CFGS BARCELONA
+              - cell [ref=f6e158]:
+                - link "Reserva tu plaza" [ref=f6e159] [cursor=pointer]:
+                  - /url: https://www.eventbrite.es/e/entradas-open-day-presencial-cfgs-barcelona-enero-2027-2000965950021
+      - generic [ref=f6e160]:
+        - generic [ref=f6e161]:
+          - heading [level=2] [ref=f6e162]:
+            - paragraph [ref=f6e163]: NOTICIAS
+          - link "Ver todo" [ref=f6e164] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/
+        - generic [ref=f6e165]:
+          - generic [ref=f6e166]:
+            - link "ESDI será sede asociada de la Barcelona Design Week 2026" [ref=f6e167] [cursor=pointer]:
+              - /url: https://esdi.es/noticias/esdi-sede-asociada-barcelona-design-week-2026/
+              - img "ESDI, sede asociada de la Barcelona Design Week 2026" [ref=f6e168]
+            - generic [ref=f6e169]:
+              - generic [ref=f6e170]:
+                - link "Acuerdos" [ref=f6e171] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/category/acuerdos/
+                - text: /
+                - link "ESDI" [ref=f6e172] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/category/esdi/
+                - text: /
+                - link "Eventos" [ref=f6e173] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/category/eventos/
+              - heading [level=3] [ref=f6e174]:
+                - link "ESDI será sede asociada de la Barcelona Design Week 2026" [ref=f6e175] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/esdi-sede-asociada-barcelona-design-week-2026/
+          - generic [ref=f6e176]:
+            - link "ESDI y Teixits Torné impulsan nuevos tejidos a partir de lana reciclada posconsumo" [ref=f6e177] [cursor=pointer]:
+              - /url: https://esdi.es/noticias/lana-reciclada-nuevos-tejidos/
+              - img "Experimentación con tejidos de lana reciclada en el proyecto de ESDI y Teixits Torné" [ref=f6e178]
+            - generic [ref=f6e179]:
+              - generic [ref=f6e180]:
+                - link "Acuerdos" [ref=f6e181] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/category/acuerdos/
+                - text: /
+                - link "ESDI" [ref=f6e182] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/category/esdi/
+              - heading [level=3] [ref=f6e183]:
+                - link "ESDI y Teixits Torné impulsan nuevos tejidos a partir de lana reciclada posconsumo" [ref=f6e184] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/lana-reciclada-nuevos-tejidos/
+          - generic [ref=f6e185]:
+            - link "Àngels Chacón asume la presidencia de FUNDIT para impulsar una nueva etapa de ESDI" [ref=f6e186] [cursor=pointer]:
+              - /url: https://esdi.es/noticias/angels-chacon-presidenta-fundit-esdi/
+              - img "Àngels Chacón, presidenta de FUNDIT, en ESDI Escola Superior de Disseny" [ref=f6e187]
+            - generic [ref=f6e188]:
+              - generic [ref=f6e189]:
+                - link "ESDI" [ref=f6e190] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/category/esdi/
+                - text: /
+                - link "Fàbrica de talent" [ref=f6e191] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/category/fabrica-de-talent/
+              - heading [level=3] [ref=f6e192]:
+                - link "Àngels Chacón asume la presidencia de FUNDIT para impulsar una nueva etapa de ESDI" [ref=f6e193] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/angels-chacon-presidenta-fundit-esdi/
+          - generic [ref=f6e194]:
+            - link "El talento de ESDI, reconocido en los principales premios de diseño de 2026" [ref=f6e195] [cursor=pointer]:
+              - /url: https://esdi.es/noticias/premios-diseno-esdi-2026/
+            - generic [ref=f6e196]:
+              - generic [ref=f6e197]:
+                - link "Alumni del mes" [ref=f6e198] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/category/alumni-del-mes/
+                - text: /
+                - link "Diseño de Interiores" [ref=f6e199] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/category/diseno-de-interiores/
+                - text: /
+                - link "Diseño gráfico" [ref=f6e200] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/category/diseno-grafico/
+                - text: /
+                - link "Premios" [ref=f6e201] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/category/premios/
+              - heading [level=3] [ref=f6e202]:
+                - link "El talento de ESDI, reconocido en los principales premios de diseño de 2026" [ref=f6e203] [cursor=pointer]:
+                  - /url: https://esdi.es/noticias/premios-diseno-esdi-2026/
+    - contentinfo [ref=f6e204]:
+      - img "ESDI Escola Superior de Disseny" [ref=f6e206]
+      - generic [ref=f6e207]:
+        - navigation "Footer Menu" [ref=f6e209]:
+          - list [ref=f6e211]:
+            - listitem [ref=f6e212]:
+              - link "Campus virtual" [ref=f6e213] [cursor=pointer]:
+                - /url: https://esdi.classlife.education
+            - listitem [ref=f6e214]:
+              - link "Plataforma Alumni" [ref=f6e215] [cursor=pointer]:
+                - /url: http://alumni.esdi.es
+            - listitem [ref=f6e216]:
+              - link "Becas y ayudas" [ref=f6e217] [cursor=pointer]:
+                - /url: https://esdi.es/becas-ayudas/
+            - listitem [ref=f6e218]:
+              - link "Trabaja en ESDI" [ref=f6e219] [cursor=pointer]:
+                - /url: https://esdi.es/trabaja-en-esdi/
+            - listitem [ref=f6e220]:
+              - link "Media kit" [ref=f6e221] [cursor=pointer]:
+                - /url: https://esdi.es/media-kit/
+        - paragraph [ref=f6e223]:
+          - text: ESDI Sabadell (sede) Marquès de Comillas, 81–83 08202 Sabadell
+          - link "+34 93 727 48 19" [ref=f6e224] [cursor=pointer]:
+            - /url: tel:+34937274819
+          - text: 8.15 – 21.00 h
+        - paragraph [ref=f6e226]:
+          - text: ESDI Barcelona Diputació, 337 08009 Barcelona
+          - link "+34 93 416 00 00" [ref=f6e227] [cursor=pointer]:
+            - /url: tel:+34934160000
+          - text: 8.30 – 21.00 h
+        - navigation "Footer Menu Social" [ref=f6e229]:
+          - list [ref=f6e231]:
+            - listitem [ref=f6e232]:
+              - link "Instagram" [ref=f6e233] [cursor=pointer]:
+                - /url: https://www.instagram.com/esdi.es/
+            - listitem [ref=f6e234]:
+              - link "LinkedIn" [ref=f6e235] [cursor=pointer]:
+                - /url: https://www.linkedin.com/school/escola-superior-de-disseny-esdi/
+            - listitem [ref=f6e236]:
+              - link "YouTube" [ref=f6e237] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/ESDisseny
+            - listitem [ref=f6e238]:
+              - link "TikTok" [ref=f6e239] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@esdi.es
+            - listitem [ref=f6e240]:
+              - link "Threads" [ref=f6e241] [cursor=pointer]:
+                - /url: https://www.threads.com/@esdi.es
+      - img "ESDI Escola Superior de Disseny" [ref=f6e243]
+      - generic [ref=f6e244]:
+        - navigation "Footer Legal" [ref=f6e245]:
+          - list [ref=f6e247]:
+            - listitem [ref=f6e248]:
+              - link "Aviso legal" [ref=f6e249] [cursor=pointer]:
+                - /url: https://esdi.es/aviso-legal/
+            - listitem [ref=f6e250]:
+              - link "Política de privacidad" [ref=f6e251] [cursor=pointer]:
+                - /url: https://esdi.es/politica-de-privacidad/
+            - listitem [ref=f6e252]:
+              - link "Política de cookies" [ref=f6e253] [cursor=pointer]:
+                - /url: https://esdi.es/politica-de-cookies/
+            - listitem [ref=f6e254]:
+              - link "Buzón de sugerencias" [ref=f6e255] [cursor=pointer]:
+                - /url: https://esdi.es/buzon-de-sugerencias/
+        - paragraph [ref=f6e257]: © 2026 ESDI Escola Superior de Disseny
+  - button "Gestionar consentimiento" [ref=f6e258] [cursor=pointer]

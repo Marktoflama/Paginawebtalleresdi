@@ -1,0 +1,108 @@
+
+> test:mutation
+> node run.mjs --mutate
+
+PostgreSQL 17.10 on :54329 · Madrid today 2026-10-07 · W1 2026-10-12 · W2 2026-10-19
+
+Migrations (npm run db:migrate):
+  | → 20261007000001_foundation.sql … ok
+  | → 20261007000002_rules.sql … ok
+  | → 20261007000003_profiles.sql … ok
+  | → 20261007000004_bookings.sql … ok
+  | → 20261007000005_jobs.sql … ok
+  | → 20261007000006_booking_rpc.sql … ok
+  | → 20261007000007_realtime.sql … ok
+  | → 20261007000008_auth_domain.sql … ok
+  | → 20261007000009_cron.sql … ok
+  | 9 migraciones aplicadas.
+  | ✓ 20261007000001_foundation.sql
+  |   ✓ 20261007000002_rules.sql
+  |   ✓ 20261007000003_profiles.sql
+  |   ✓ 20261007000004_bookings.sql
+  |   ✓ 20261007000005_jobs.sql
+  |   ✓ 20261007000006_booking_rpc.sql
+  |   ✓ 20261007000007_realtime.sql
+  |   ✓ 20261007000008_auth_domain.sql
+  |   ✓ 20261007000009_cron.sql
+  | No hay migraciones pendientes.
+  ✓ all 9 migrations recorded in supabase_migrations.schema_migrations
+  ✓ every migration file can be re-applied (idempotent SQL)
+!! MUTATED: advisory lock removed, UNIQUE (slot_date, slot_start) dropped
+
+Check 1 · @esdi.edu.es only (database layer):
+  ✓ auth.users rejects alumno@gmail.com (backstop trigger, 42501)
+  ✓ auth.users rejects look-alike x@esdi.edu.es.evil.com
+  ✓ auth.users rejects look-alike x@sub.esdi.edu.es
+  ✓ auth.users rejects look-alike a@b@esdi.edu.es
+  ✓ auth.users rejects look-alike .alumno@esdi.edu.es
+  ✓ auth.users rejects look-alike alu..mno@esdi.edu.es
+  ✓ auth.users rejects look-alike alumno@esdi.es
+  ✓ alumno@esdi.edu.es accepted; profile created with name and lower-case email
+  ✓ Auth hook (as supabase_auth_admin): gmail → 403 in Spanish, esdi → {}
+  ✓ Auth hook is not callable by students
+  ✓ admin allowlist (D7): an allowlisted non-student address can sign up
+
+Check 2 · Monday–Friday, 08:00–19:00, window:
+  ✓ book_slot rejects Saturday, Sunday, 07:00, 19:00, 10:30 (INVALID_SLOT)
+  ✓ book_slot rejects past slots (SLOT_PAST) and beyond 4 weeks (OUT_OF_WINDOW)
+  ✓ first (08:00) and last (18:00) slots and the last bookable day are accepted
+  ✓ table CHECK constraints hold even for direct (service) inserts
+  ✓ auth/profile errors: NOT_AUTHENTICATED, NOT_ALLOWED, PROFILE_INCOMPLETE
+
+Check 3 · A books Tuesday 10:00, B sees it closed:
+  ✓ A books Tuesday 10:00
+  ✓ get_week_slots: closed for B (mine=false), mine for A; no identities exposed
+  ✓ realtime broadcast on private topic 'slots' with only {date, start, action}
+  ✓ realtime.messages RLS: allowed student on 'slots' reads; other topic or domain reads nothing
+  ✗ B booking the same slot gets SLOT_TAKEN
+       expected error ~ "SLOT_TAKEN", but it succeeded
+
+Check 4 · simultaneous attempts (separate connections, released together):
+  ✗ 20 head-to-head races on 20 slots: exactly one winner each, loser gets SLOT_TAKEN
+      race 0 winners: expected 1, got 2
+  ✗ 10 students at once on one slot: exactly one winner
+       expected 1, got 10
+  ✗ one student, 3 tabs, same day at once: exactly 1 booked, 2 DAILY_LIMIT
+       expected 1, got 3
+  ✗ one student, 3 tabs, 3 days of one week at once: exactly 2 booked, 1 WEEKLY_LIMIT
+       expected 2, got 3
+
+Check 5 · 1 per day, 2 per week:
+  ✓ A: second slot on Tuesday → DAILY_LIMIT
+  ✓ A: Wednesday → booked (2nd this week)
+  ✓ A: Thursday → WEEKLY_LIMIT
+  ✓ A: next week is a fresh quota
+
+Check 6 · cancelling reopens the slot:
+  ✓ A cancels Tuesday 10:00: status, timestamp, actor; lock removed
+  ✗ realtime 'released' broadcast follows
+       expected ["booked","released"], got ["booked","booked","released"]
+  ✗ B sees it free and books it
+      still listed as occupied
+  ✓ A's quota is freed too: Thursday now books
+  ✗ cancel twice → ALREADY_CANCELLED; someone else's booking → NOT_FOUND
+      Cannot read properties of undefined (reading 'id')
+  ✗ admin cancel (service role) → cancelled_by 'admin', slot reopened
+      Cannot read properties of undefined (reading 'id')
+  ✗ history is kept: bookings rows are never deleted
+       expected ["cancelled","cancelled"], got ["cancelled","confirmed"]
+
+Row-level security and privileges:
+  ✓ students read only their own bookings
+  ✓ students cannot write bookings or read the lock table directly
+  ✓ students update only their own name, never their email
+  ✓ anon can call nothing; service-only RPCs are closed to students
+
+Check 7 · Excel and email jobs (transactional outbox):
+  ✓ booking enqueues excel.booking + email.booking_confirmed in the same transaction
+  ✓ cancel enqueues email.booking_cancelled; pending excel job is deduplicated
+  ✓ a named profile enqueues excel.student; a nameless one does not (until named)
+  ✓ worker cycle (service role): claim → fail with backoff → claim later → complete
+  ✓ Excel lease: one worker at a time
+
+Retry driver (pg_cron + pg_net + Vault):
+  ✓ job scheduled every 5 minutes; no-op until configured
+  ✓ cron_configure (service role) stores secrets; runner POSTs with the bearer
+  ✓ booking_rules_snapshot() mirrors src/config/booking.ts
+
+40/50 passed

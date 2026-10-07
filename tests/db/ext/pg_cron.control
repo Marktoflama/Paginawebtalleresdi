@@ -1,0 +1,4 @@
+comment = 'QA stub of pg_cron: records schedules, runs nothing'
+default_version = '1.0'
+relocatable = false
+schema = pg_catalog

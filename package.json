@@ -1,0 +1,60 @@
+{
+  "name": "taller-reservas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reserva de franjas de taller para estudiantes (@esdi.edu.es). Interfaz inspirada en esdi.es.",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/integration",
+    "test:e2e": "playwright test",
+    "db:migrate": "tsx scripts/db-migrate.ts",
+    "db:seed": "tsx scripts/seed.ts",
+    "admins:sync": "tsx scripts/admins-sync.ts",
+    "excel:template": "tsx scripts/excel-template.ts",
+    "cron:setup": "tsx scripts/cron-setup.ts",
+    "check": "npm run typecheck && npm run lint && npm run test:unit"
+  },
+  "dependencies": {
+    "@gsap/react": "2.1.2",
+    "@phosphor-icons/react": "2.1.10",
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.117.2",
+    "exceljs": "4.4.0",
+    "gsap": "3.15.0",
+    "next": "16.4.0",
+    "nodemailer": "10.0.15",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "0.0.1",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "26.6.4",
+    "@types/nodemailer": "8.0.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "dotenv": "18.0.6",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.0",
+    "postgres": "3.4.9",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "vitest": "5.0.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "unrs-resolver@1.12.2": true
+  }
+}

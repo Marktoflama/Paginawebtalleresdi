@@ -1,0 +1,106 @@
+
+> test
+> node run.mjs
+
+PostgreSQL 17.10 on :54329 · Madrid today 2026-10-07 · W1 2026-10-12 · W2 2026-10-19
+
+Migrations (npm run db:migrate):
+  | → 20261007000001_foundation.sql … ok
+  | → 20261007000002_rules.sql … ok
+  | → 20261007000003_profiles.sql … ok
+  | → 20261007000004_bookings.sql … ok
+  | → 20261007000005_jobs.sql … ok
+  | → 20261007000006_booking_rpc.sql … ok
+  | → 20261007000007_realtime.sql … ok
+  | → 20261007000008_auth_domain.sql … ok
+  | → 20261007000009_cron.sql … ok
+  | 9 migraciones aplicadas.
+  | ✓ 20261007000001_foundation.sql
+  |   ✓ 20261007000002_rules.sql
+  |   ✓ 20261007000003_profiles.sql
+  |   ✓ 20261007000004_bookings.sql
+  |   ✓ 20261007000005_jobs.sql
+  |   ✓ 20261007000006_booking_rpc.sql
+  |   ✓ 20261007000007_realtime.sql
+  |   ✓ 20261007000008_auth_domain.sql
+  |   ✓ 20261007000009_cron.sql
+  | No hay migraciones pendientes.
+  ✓ all 9 migrations recorded in supabase_migrations.schema_migrations
+  ✓ every migration file can be re-applied (idempotent SQL)
+
+Check 1 · @esdi.edu.es only (database layer):
+  ✓ auth.users rejects alumno@gmail.com (backstop trigger, 42501)
+  ✓ auth.users rejects look-alike x@esdi.edu.es.evil.com
+  ✓ auth.users rejects look-alike x@sub.esdi.edu.es
+  ✓ auth.users rejects look-alike a@b@esdi.edu.es
+  ✓ auth.users rejects look-alike .alumno@esdi.edu.es
+  ✓ auth.users rejects look-alike alu..mno@esdi.edu.es
+  ✓ auth.users rejects look-alike alumno@esdi.es
+  ✓ alumno@esdi.edu.es accepted; profile created with name and lower-case email
+  ✓ Auth hook (as supabase_auth_admin): gmail → 403 in Spanish, esdi → {}
+  ✓ Auth hook is not callable by students
+  ✓ admin allowlist (D7): an allowlisted non-student address can sign up
+
+Check 2 · Monday–Friday, 08:00–19:00, window:
+  ✓ book_slot rejects Saturday, Sunday, 07:00, 19:00, 10:30 (INVALID_SLOT)
+  ✓ book_slot rejects past slots (SLOT_PAST) and beyond 4 weeks (OUT_OF_WINDOW)
+  ✓ first (08:00) and last (18:00) slots and the last bookable day are accepted
+  ✓ table CHECK constraints hold even for direct (service) inserts
+  ✓ auth/profile errors: NOT_AUTHENTICATED, NOT_ALLOWED, PROFILE_INCOMPLETE
+
+Check 3 · A books Tuesday 10:00, B sees it closed:
+  ✓ A books Tuesday 10:00
+  ✓ get_week_slots: closed for B (mine=false), mine for A; no identities exposed
+  ✓ realtime broadcast on private topic 'slots' with only {date, start, action}
+  ✓ realtime.messages RLS: allowed student on 'slots' reads; other topic or domain reads nothing
+  ✓ B booking the same slot gets SLOT_TAKEN
+
+Check 4 · simultaneous attempts (separate connections, released together):
+  ✓ 20 head-to-head races on 20 slots: exactly one winner each, loser gets SLOT_TAKEN
+  ✓ 10 students at once on one slot: exactly one winner
+  ✓ one student, 3 tabs, same day at once: exactly 1 booked, 2 DAILY_LIMIT
+  ✓ one student, 3 tabs, 3 days of one week at once: exactly 2 booked, 1 WEEKLY_LIMIT
+
+Check 5 · 1 per day, 2 per week:
+  ✓ A: second slot on Tuesday → DAILY_LIMIT
+  ✓ A: Wednesday → booked (2nd this week)
+  ✓ A: Thursday → WEEKLY_LIMIT
+  ✓ A: next week is a fresh quota
+
+Check 6 · cancelling reopens the slot:
+  ✓ A cancels Tuesday 10:00: status, timestamp, actor; lock removed
+  ✓ realtime 'released' broadcast follows
+  ✓ B sees it free and books it
+  ✓ A's quota is freed too: Thursday now books
+  ✓ cancel twice → ALREADY_CANCELLED; someone else's booking → NOT_FOUND
+  ✓ admin cancel (service role) → cancelled_by 'admin', slot reopened
+  ✓ history is kept: bookings rows are never deleted
+
+Row-level security and privileges:
+  ✓ students read only their own bookings
+  ✓ students cannot write bookings or read the lock table directly
+  ✓ students update only their own name, never their email
+  ✓ anon can call nothing; service-only RPCs are closed to students
+
+Check 7 · Excel and email jobs (transactional outbox):
+  ✓ booking enqueues excel.booking + email.booking_confirmed in the same transaction
+  ✓ cancel enqueues email.booking_cancelled; pending excel job is deduplicated
+  ✓ a named profile enqueues excel.student; a nameless one does not (until named)
+  ✓ worker cycle (service role): claim → fail with backoff → claim later → complete
+  ✓ Excel lease: one worker at a time
+
+Retry driver (pg_cron + pg_net + Vault):
+  ✓ job scheduled every 5 minutes; no-op until configured
+  ✓ cron_configure (service role) stores secrets; runner POSTs with the bearer
+  ✓ booking_rules_snapshot() mirrors src/config/booking.ts
+
+Check 7 · the .xlsx download built from this database (src/lib/excel/workbook.ts):
+  | Registros: 58 rows · Reservas: 31 rows (5 cancelled)
+  |   ID reserva | Nombre | Email | Fecha | Día | Inicio | Fin | Estado | Creada | Cancelada
+  |   96ea4772-ed14-4e04-b4e8-012382922cf5 | Alba Prueba Serra | qa.alumna.a@esdi.edu.es | 2026-10-20 00:00 | Martes | 10:00 | 11:00 | cancelada | 2026-10-07 04:09 | 2026-10-07 04:09
+  |   13df22c3-716d-4651-ab07-1413d273f9a1 | Alba Prueba Serra | qa.alumna.a@esdi.edu.es | 2026-10-21 00:00 | Miércoles | 10:00 | 11:00 | confirmada | 2026-10-07 04:09 | 
+  |   b1c84246-a2b9-4d98-8f21-0960d70e4992 | Alba Prueba Serra | qa.alumna.a@esdi.edu.es | 2026-10-22 00:00 | Jueves | 10:00 | 11:00 | confirmada | 2026-10-07 04:09 | 
+  |   03dd4d37-553e-4a4f-a28f-4df68bcd7ee6 | Alba Prueba Serra | qa.alumna.a@esdi.edu.es | 2026-10-26 00:00 | Lunes | 10:00 | 11:00 | cancelada | 2026-10-07 04:09 | 2026-10-07 04:09
+  ✓ Excel workbook has Registros and Reservas with every student and booking → tests\db\.out\excel-desde-bd.xlsx
+
+51/51 passed

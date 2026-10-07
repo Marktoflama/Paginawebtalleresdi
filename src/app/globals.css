@@ -1,0 +1,390 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens: a 1:1 translation of DESIGN.md (ESDI-inspired system, measured
+ * on esdi.es on 2026-10-07). Fluid sizes keep ESDI's clamp() formulas verbatim;
+ * display sizes are 0.98x because Barlow Condensed replaces FramerSans (word
+ * widths then match within 0.1%). Text never drops below 14px (a11y override).
+ */
+
+@theme {
+  --color-*: initial;
+  --color-ink: #000000;
+  --color-canvas: #ffffff;
+  --color-surface: #e2e4e7;
+  --color-green: #69aa96;
+  --color-red: #e65541;
+  --color-blue: #7896c8;
+  --color-yellow: #fadc32;
+  --color-muted: #6b6b6b;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --font-*: initial;
+  --font-display: var(--font-barlow-condensed), "Arial Narrow", sans-serif;
+  --font-wordmark: var(--font-roboto-condensed), "Arial Narrow", sans-serif;
+  --font-sans: var(--font-inter-tight), "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --radius-*: initial;
+  --shadow-*: initial;
+  --inset-shadow-*: initial;
+  --drop-shadow-*: initial;
+
+  --ease-std: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-esdi-out: cubic-bezier(0, 0, 0.58, 1);
+  --ease-esdi-in: cubic-bezier(0.42, 0, 1, 1);
+}
+
+:root {
+  /* Display (Barlow Condensed 700, 0.98x ESDI tokens) */
+  --fs-display-xxl: clamp(7.128rem, 0rem + 14.849vw, 19.674rem);
+  --fs-display-xxl-m: clamp(2.576rem, 0rem + 14.212vw, 6.813rem);
+  --fs-display-lg: clamp(3.063rem, 0.613rem + 3.063vw, 5.819rem);
+  --fs-display-lg-m: clamp(1.709rem, 0.059rem + 8.803vw, 4.279rem);
+  --fs-display-md: clamp(1.532rem, 1.123rem + 0.851vw, 2.144rem);
+  --tracking-title: clamp(-0.375rem, -0.5rem + 0.213vw, -0.125rem);
+
+  /* Text (Inter Tight; 300 >= 18px, 400 below) */
+  --fs-lead: clamp(1.333rem, 0rem + 2.778vw, 3.681rem);
+  --fs-lead-m: clamp(0.981rem, 0rem + 5.411vw, 2.594rem);
+  --fs-body-lg: clamp(1.375rem, 1.041rem + 0.695vw, 1.875rem);
+  --fs-body-lg-m: clamp(1.125rem, 1.005rem + 0.641vw, 1.313rem);
+  --fs-body-sm: clamp(0.875rem, 0.276rem + 0.935vw, 1.563rem);
+  --fs-caption: clamp(0.875rem, 0.657rem + 0.34vw, 1rem);
+  --fs-legal: clamp(0.875rem, 0.744rem + 0.213vw, 1rem);
+  --fs-nav: clamp(1.375rem, 1.041rem + 0.695vw, 1.875rem);
+  --fs-nav-m: clamp(0.875rem, 0rem + 4.762vw, 2.283rem);
+
+  /* Layout */
+  --gutter: 16px;
+  --section: 45px;
+  --section-sm: 25px;
+  --row-y: 16px;
+  --card-pad: 8px;
+  --col-gap: 10px;
+  --header-offset: 82px;
+
+  /* Layers (documented z-index scale) */
+  --z-hero-control: 5;
+  --z-trail: 20;
+  --z-header: 50;
+  --z-overlay: 60;
+}
+
+@media (width >= 48rem) {
+  :root {
+    --gutter: 30px;
+    --section: 90px;
+    --section-sm: 55px;
+    --row-y: 14px;
+    --card-pad: 16px;
+    --col-gap: 1vw;
+  }
+}
+
+/* ───────────── Typography utilities (mobile token first, desktop at md) ───────────── */
+
+@utility type-display-xxl {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-display-xxl-m);
+  line-height: 0.83;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-wrap: balance;
+  @media (width >= 48rem) {
+    font-size: var(--fs-display-xxl);
+    letter-spacing: var(--tracking-title);
+  }
+}
+
+@utility type-display-lg {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-display-lg-m);
+  line-height: 0.8774;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  text-wrap: balance;
+  @media (width >= 48rem) {
+    font-size: var(--fs-display-lg);
+    letter-spacing: -0.01em;
+  }
+}
+
+@utility type-display-md {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-display-lg-m);
+  line-height: 0.8774;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  @media (width >= 48rem) {
+    font-size: var(--fs-display-md);
+    line-height: 1;
+  }
+}
+
+@utility type-lead {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: var(--fs-lead-m);
+  line-height: 0.99;
+  text-wrap: pretty;
+  @media (width >= 48rem) {
+    font-size: var(--fs-lead);
+  }
+}
+
+@utility type-body-lg {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: var(--fs-body-lg-m);
+  line-height: 1.05;
+  @media (width >= 48rem) {
+    font-size: var(--fs-body-lg);
+    line-height: 0.99;
+  }
+}
+
+@utility type-body-copy {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: var(--fs-body-lg-m);
+  line-height: 1.16;
+  text-wrap: pretty;
+  @media (width >= 48rem) {
+    font-size: var(--fs-body-lg);
+  }
+}
+
+@utility type-body-sm {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: var(--fs-body-sm);
+  line-height: 1;
+}
+
+@utility type-caption {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.1;
+  @media (width >= 48rem) {
+    font-size: var(--fs-caption);
+  }
+}
+
+@utility type-legal {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: var(--fs-legal);
+  line-height: 1;
+}
+
+@utility type-nav {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: var(--fs-nav-m);
+  line-height: 1.5;
+  @media (width >= 48rem) {
+    font-size: var(--fs-nav);
+  }
+}
+
+@utility type-button {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: var(--fs-body-sm);
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* ESDI agenda table: mobile rows stack with large dates; from 768 the table uses the small "open" sizes. */
+@utility type-agenda-date {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: var(--fs-lead-m);
+  line-height: 0.99;
+  @media (width >= 48rem) {
+    font-weight: 400;
+    font-size: var(--fs-body-sm);
+    line-height: 1;
+  }
+}
+
+@utility type-agenda-title {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: var(--fs-body-lg-m);
+  line-height: 1.05;
+  @media (width >= 48rem) {
+    font-weight: 400;
+    font-size: var(--fs-body-sm);
+    line-height: 1;
+  }
+}
+
+@utility type-agenda-cta {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: var(--fs-body-lg-m);
+  line-height: 1.05;
+  @media (width >= 48rem) {
+    font-weight: 400;
+    font-size: var(--fs-caption);
+    line-height: 1.1;
+  }
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Optical shift so giant cap stems align with the gutter (ESDI: -0.75vw). */
+@utility optical-left {
+  margin-left: -0.75vw;
+}
+
+/* ESDI link conventions */
+@utility link-inline {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  @media (hover: hover) {
+    &:hover {
+      text-decoration-line: none;
+    }
+  }
+}
+
+@utility link-reveal {
+  text-decoration-line: none;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  @media (hover: hover) {
+    &:hover {
+      text-decoration-line: underline;
+    }
+  }
+}
+
+@utility gutter-x {
+  padding-inline: var(--gutter);
+}
+
+@utility section-gap {
+  margin-bottom: var(--section);
+}
+
+@utility section-gap-sm {
+  margin-bottom: var(--section-sm);
+}
+
+@utility rule-top {
+  border-top: 1px solid var(--color-ink);
+}
+
+@utility rule-bottom {
+  border-bottom: 1px solid var(--color-ink);
+}
+
+/* Closed slot: resting grey + 1px diagonal ink hatch (DESIGN.md ex-slot-closed). */
+@utility hatch {
+  background-color: var(--color-surface);
+  background-image: repeating-linear-gradient(135deg, rgb(0 0 0 / 0.55) 0 1px, transparent 1px 8px);
+}
+
+/* ───────────── Base ───────────── */
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-offset);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-weight: 300;
+    font-kerning: normal;
+    overflow-x: clip;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea,
+  label {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgb(250 220 50 / 0.45);
+  }
+
+  button:disabled,
+  [aria-disabled="true"] {
+    cursor: default;
+  }
+
+  ::selection {
+    background-color: var(--color-yellow);
+    color: var(--color-ink);
+  }
+
+  /* Visible focus everywhere (fixes ESDI's suppressed outlines). */
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+  }
+
+  .on-ink :focus-visible,
+  .on-ink:focus-visible {
+    outline-color: var(--color-canvas);
+  }
+
+  dialog {
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: var(--color-canvas);
+    color: var(--color-ink);
+  }
+
+  dialog::backdrop {
+    background: transparent;
+  }
+
+  /* Lock page scroll while a full-screen overlay is open. */
+  html:has(dialog[open][data-lock-scroll]) {
+    overflow: hidden;
+  }
+
+  input,
+  select,
+  textarea {
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,1239 @@
+- generic [active] [ref=f19e1]:
+  - generic [ref=f19e2]:
+    - link "Skip to content" [ref=f19e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=f19e4]:
+      - link [ref=f19e6] [cursor=pointer]:
+        - /url: https://esdi.es/
+        - img "ESDI" [ref=f19e7]
+      - navigation "Main Navigation" [ref=f19e8]:
+        - button "Menú" [ref=f19e9] [cursor=pointer]
+        - button "es" [ref=f19e11] [cursor=pointer]
+    - main [ref=f19e14]:
+      - heading [level=1] [ref=f19e16]:
+        - paragraph [ref=f19e17]: GRADO EN DISEÑO
+      - paragraph [ref=f19e20]: El Grado en Diseño de ESDI forma a profesionales en torno a los valores de observación, análisis y reflexión, creatividad y sensibilidad artística, responsabilidad ética y sostenible, compromiso social e innovación al servicio del bienestar social y el progreso.
+      - generic [ref=f19e23]:
+        - link [ref=f19e24] [cursor=pointer]:
+          - /url: https://www.instagram.com/p/DRCbfE3CCPh/
+          - img "proyecto de diseño gráfico, grado en diseño esdi" [ref=f19e25]
+          - paragraph [ref=f19e28]: (RE-CORDIS) by Anna Contreras
+        - link [ref=f19e29] [cursor=pointer]:
+          - /url: https://www.instagram.com/p/DRxInwRDDD8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+          - img "proyecto de diseño de moda, grado en diseño esdi" [ref=f19e30]
+          - generic [ref=f19e32]:
+            - paragraph [ref=f19e33]: SYN-C
+            - paragraph [ref=f19e34]: by Carol Bermann
+            - paragraph [ref=f19e35]: "Fotografía: Anna Mendiola"
+            - paragraph [ref=f19e36]: "Modelo: Generation Models"
+        - link [ref=f19e37] [cursor=pointer]:
+          - /url: https://www.instagram.com/p/DMKh-T4MZqy/
+          - img "proyecto de diseño de producto, grado en diseño esdi, iluminación" [ref=f19e38]
+          - paragraph [ref=f19e41]: RECAMP by Enric Ferreres
+        - link [ref=f19e42] [cursor=pointer]:
+          - /url: https://www.instagram.com/reel/DSKF9uCk_gV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+          - img "proyecto de diseño audiovisual, documental, grado en diseño esdi" [ref=f19e43]
+          - generic [ref=f19e45]:
+            - paragraph [ref=f19e46]: IKAW MAG-SABI
+            - paragraph [ref=f19e47]: by Jelwen Arconado
+      - generic [ref=f19e48]:
+        - heading [level=2] [ref=f19e49]:
+          - paragraph [ref=f19e50]: INTRODUCCIÓN
+        - generic [ref=f19e51]:
+          - paragraph [ref=f19e53]: El método docente de ESDI busca el equilibrio entre los fundamentos teóricos que suponen la base del aprendizaje, las herramientas y los lenguajes que permiten llevar las ideas a la práctica, y el acercamiento a la realidad profesional gracias a la colaboración con empresas.
+          - paragraph [ref=f19e55]: "Esto se transmite mediante tres tipologías de asignaturas: las conceptuales, que aportan conocimientos y competencias del ámbito de las Humanidades y las Ciencias Sociales; las instrumentales, que muestran las herramientas y los materiales para entender los tipos de productos a diseñar; y las asignaturas proyectuales, que enseñan la metodología de trabajo del diseño."
+      - generic [ref=f19e56]:
+        - heading "DATOS CLAVE" [level=2] [ref=f19e57]
+        - list [ref=f19e59]:
+          - listitem [ref=f19e60]:
+            - generic [ref=f19e61]: TITULACIÓN
+            - paragraph [ref=f19e63]: Grado en Diseño, titulación universitaria oficial expedida por la Universidad Ramon Llull
+          - listitem [ref=f19e64]:
+            - generic [ref=f19e65]: PRECIO
+            - generic [ref=f19e66]:
+              - paragraph [ref=f19e67]: 9.120€ (152€/ECTS) por curso en español / catalán.
+              - paragraph [ref=f19e68]: 10.710€ (178,5€/ECTS) por curso en inglés
+          - listitem [ref=f19e69]:
+            - generic [ref=f19e70]: DURACIÓN
+            - paragraph [ref=f19e72]: 4 años académicos, periodo lectivo de septiembre a junio
+          - listitem [ref=f19e73]:
+            - generic [ref=f19e74]: BECAS Y AYUDAS
+            - paragraph [ref=f19e76]:
+              - text: Pide más información sobre nuestro programa propio de
+              - link "becas y ayudas" [ref=f19e77] [cursor=pointer]:
+                - /url: https://esdi.es/becas-ayudas/
+              - text: ", y nuestras modalidades de pago y financiación"
+          - listitem [ref=f19e78]:
+            - generic [ref=f19e79]: CRÉDITOS
+            - paragraph [ref=f19e81]: 240 ECTS (60 ECTS/curso)
+          - listitem [ref=f19e82]:
+            - generic [ref=f19e83]: ÁMBITO DE CONOCIMIENTO
+            - paragraph [ref=f19e85]: "Industrias culturales: diseño, animación, cinematografía y producción audiovisual"
+          - listitem [ref=f19e86]:
+            - generic [ref=f19e87]: MENCIONES
+            - paragraph [ref=f19e89]: Moda, interiores, gráfico, producto y audiovisual
+          - listitem [ref=f19e90]:
+            - generic [ref=f19e91]: PRÓXIMA CONVOCATORIA
+            - paragraph [ref=f19e93]: Septiembre 2026
+          - listitem [ref=f19e94]:
+            - generic [ref=f19e95]: Nº PLAZAS
+            - paragraph [ref=f19e97]: 150 plazas
+          - listitem [ref=f19e98]:
+            - generic [ref=f19e99]: IDIOMAS
+            - paragraph [ref=f19e101]: Castellano, catalán e inglés
+          - listitem [ref=f19e102]:
+            - generic [ref=f19e103]: MODALIDAD
+            - paragraph [ref=f19e105]:
+              - text: Presencial en ESDI Sabadell (
+              - link "C/ Marquès de Comillas, 81-83, 08202 Sabadell, Barcelona" [ref=f19e106] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/11z9yWkj6iRpz5se8
+              - text: )
+          - listitem [ref=f19e107]:
+            - generic [ref=f19e108]: PRÁCTICAS DE EMPRESA
+            - paragraph [ref=f19e110]: Realización de prácticas curriculares (obligatorias) en empresas, y posibilidad de prácticas extracurriculares
+      - generic [ref=f19e111]:
+        - heading "Especialidades" [level=2] [ref=f19e113]
+        - generic [ref=f19e114]:
+          - link [ref=f19e116] [cursor=pointer]:
+            - /url: https://esdi.es/estudios/grado-en-diseno/grafico/
+            - img "proyecto de diseño gráfico, grado en diseño esdi, libro lola flores" [ref=f19e118]
+            - heading "Diseño Gráfico" [level=3] [ref=f19e120]
+          - link [ref=f19e122] [cursor=pointer]:
+            - /url: https://esdi.es/estudios/grado-en-diseno/moda/
+            - img "proyecto de diseño de moda, grado en diseño esdi" [ref=f19e124]
+            - heading "Diseño de Moda" [level=3] [ref=f19e126]
+          - link [ref=f19e128] [cursor=pointer]:
+            - /url: https://esdi.es/estudios/grado-en-diseno/interiores/
+            - img "Diseño de loft industrial del Grado en Diseño de Interiores de ESDI" [ref=f19e130]
+            - heading "Diseño de Interiores" [level=3] [ref=f19e132]
+          - link [ref=f19e134] [cursor=pointer]:
+            - /url: https://esdi.es/estudios/grado-en-diseno/producto/
+            - img "Lámpara plegable de diseño minimalista" [ref=f19e136]
+            - heading "Diseño de Producto" [level=3] [ref=f19e138]
+          - link [ref=f19e140] [cursor=pointer]:
+            - /url: https://esdi.es/estudios/grado-en-diseno/audiovisual/
+            - img "proyecto diseño audiovisual, grado en diseño esdi, animación 3d" [ref=f19e142]
+            - heading "Diseño Audiovisual" [level=3] [ref=f19e144]
+      - generic [ref=f19e145]:
+        - heading "Plan de estudios" [level=2] [ref=f19e146]
+        - generic [ref=f19e148]:
+          - generic [ref=f19e149]:
+            - paragraph [ref=f19e150]: El plan de estudios del Grado en Diseño consta de 240 créditos, estructurados en 4 cursos de 60 créditos cada uno. Los dos primeros cursos están formados por asignaturas Obligatorias (O) y de Formación Básica (FB), comunes a todas las menciones. Aún así, en algunas asignaturas ya se imparten contenidos específicos y se desarrollan trabajos y actividades según el itinerario escogido.
+            - paragraph [ref=f19e151]
+            - paragraph [ref=f19e152]: Las asignaturas especializadas y Optativas (OP) se imparten a partir del tercer curso y profundizan en conocimientos teóricos y prácticos específicos de cada mención. Las materias se complementan con la realización de prácticas obligatorias en empresas y el desarrollo del Trabajo Final de Grado, que supone el último registro pedagógico para evaluar los conocimientos adquiridos por el alumnado durante el periodo de formación.
+            - paragraph [ref=f19e153]
+            - paragraph [ref=f19e154]: "Estas son las asignaturas comunes a todas las menciones:"
+          - list [ref=f19e155]:
+            - listitem [ref=f19e156]:
+              - paragraph [ref=f19e157]: Diseño y sociedad
+            - listitem [ref=f19e158]:
+              - paragraph [ref=f19e159]: Dibujo artístico
+            - listitem [ref=f19e160]:
+              - paragraph [ref=f19e161]: Herramientas digitales I y II
+            - listitem [ref=f19e162]:
+              - paragraph [ref=f19e163]: Taller de forma, color y textura
+            - listitem [ref=f19e164]:
+              - paragraph [ref=f19e165]: Introducción a proyectos I y II
+            - listitem [ref=f19e166]:
+              - paragraph [ref=f19e167]: Historia del diseño I y II
+            - listitem [ref=f19e168]:
+              - paragraph [ref=f19e169]: Dibujo técnico
+            - listitem [ref=f19e170]:
+              - paragraph [ref=f19e171]: Ética y sostenibilidad
+            - listitem [ref=f19e172]:
+              - paragraph [ref=f19e173]: Introducción a materiales, técnicas y tecnología
+            - listitem [ref=f19e174]:
+              - paragraph [ref=f19e175]: Cultura del arte y del diseño I y II
+            - listitem [ref=f19e176]:
+              - paragraph [ref=f19e177]: Materiales, técnicas y tecnología I y II
+            - listitem [ref=f19e178]:
+              - paragraph [ref=f19e179]: Proyectos I y II
+            - listitem [ref=f19e180]:
+              - paragraph [ref=f19e181]: Diseño y comunicación
+            - listitem [ref=f19e182]:
+              - paragraph [ref=f19e183]: Fotografía y lenguaje visual
+            - listitem [ref=f19e184]:
+              - paragraph [ref=f19e185]: Temas de diseño
+            - listitem [ref=f19e186]:
+              - paragraph [ref=f19e187]: Design management
+        - list [ref=f19e189]:
+          - listitem [ref=f19e190]:
+            - link "PLAN DE ESTUDIOS 2026" [ref=f19e191] [cursor=pointer]:
+              - /url: https://esdi.es/estudios/grado-en-diseno/plan-de-estudios/
+          - listitem [ref=f19e192]:
+            - link "PLAN DE ESTUDIOS 2008-2029" [ref=f19e193] [cursor=pointer]:
+              - /url: https://esdi.es/wp-content/uploads/docs/academico/Guies-docents_Grau-Disseny.zip
+      - generic [ref=f19e194]:
+        - heading [level=2] [ref=f19e195]:
+          - paragraph [ref=f19e196]: Titulación
+        - paragraph [ref=f19e199]: Es un grado oficial universitario expedido por la Universidad Ramon Llull, y reconocido y homologado en el EEES (Espacio Europeo de Educación Superior). La calidad del Grado en Diseño de ESDI está acreditada por la AQU (Agencia para la Calidad del Sistema Universitario de Cataluña).
+      - generic [ref=f19e200]:
+        - generic [ref=f19e201]:
+          - button "Mostrar u ocultar contenido izquierdo" [ref=f19e202] [cursor=pointer]:
+            - heading "¿A quién va dirigido?" [level=2] [ref=f19e203]
+            - img "Mostrar" [ref=f19e204]
+          - button "Mostrar u ocultar contenido derecho" [ref=f19e206] [cursor=pointer]:
+            - heading "OBJETIVOS ACADÉMICOS" [level=2] [ref=f19e207]
+            - img "Mostrar" [ref=f19e208]
+        - generic:
+          - generic [ref=f19e209]:
+            - paragraph [ref=f19e210]: El Grado en Diseño está pensado para personas creativas, curiosas y con interés por transformar ideas en proyectos que generen impacto cultural, social o empresarial. Es una formación ideal para quienes deseen explorar la moda, el diseño gráfico, el audiovisual, el diseño de producto o el de interiores, con una base académica sólida y un enfoque multidisciplinar.
+            - paragraph [ref=f19e211]: También se dirige a estudiantes que buscan una preparación universitaria con proyección internacional y una clara orientación profesional. Si te interesa unir creatividad, innovación y pensamiento crítico para aportar soluciones en un mundo en constante cambio, este grado te ofrece el entorno y las herramientas necesarias para hacerlo.
+          - list [ref=f19e212]:
+            - listitem [ref=f19e213]:
+              - paragraph [ref=f19e214]: Proporcionar una formación sólida en los fundamentos teóricos, metodológicos y técnicos del diseño.
+            - listitem [ref=f19e215]:
+              - paragraph [ref=f19e216]: Desarrollar la capacidad de análisis, síntesis y resolución de problemas en contextos creativos y profesionales.
+            - listitem [ref=f19e217]:
+              - paragraph [ref=f19e218]: Potenciar la creatividad y la innovación como herramientas clave en el proceso de diseño.
+            - listitem [ref=f19e219]:
+              - paragraph [ref=f19e220]: Capacitar al alumnado para investigar, conceptualizar y materializar proyectos en diferentes ámbitos del diseño.
+            - listitem [ref=f19e221]:
+              - paragraph [ref=f19e222]: Fomentar el uso crítico y responsable de las tecnologías aplicadas al diseño.
+            - listitem [ref=f19e223]:
+              - paragraph [ref=f19e224]: Integrar conocimientos de cultura visual, historia y teoría del diseño para fundamentar la práctica profesional.
+            - listitem [ref=f19e225]:
+              - paragraph [ref=f19e226]: Impulsar la interdisciplinariedad y la colaboración en proyectos colectivos.
+            - listitem [ref=f19e227]:
+              - paragraph [ref=f19e228]: Promover competencias en sostenibilidad, ética y responsabilidad social vinculadas a la práctica del diseño.
+            - listitem [ref=f19e229]:
+              - paragraph [ref=f19e230]: Favorecer el desarrollo de una visión internacional y la adaptación a entornos multiculturales.
+            - listitem [ref=f19e231]:
+              - paragraph [ref=f19e232]: Preparar al alumnado para la inserción laboral y la continuación de estudios en programas de posgrado e investigación.
+      - generic [ref=f19e233]:
+        - heading "Movilidad internacional" [level=2] [ref=f19e234]
+        - generic [ref=f19e236]:
+          - generic [ref=f19e237]:
+            - paragraph [ref=f19e242]: En ESDI impulsamos la movilidad de nuestros estudiantes mediante programas de intercambio con universidades internacionales referentes en las diferentes disciplinas del diseño. Contamos con más de 50 convenios con distintos centros de 25 países diferentes de Europa, América Latina y Asia.
+            - generic [ref=f19e246]:
+              - paragraph [ref=f19e247]
+              - paragraph [ref=f19e248]: Apostamos por los programas de movilidad, tanto de estudiantes como de profesorado y staff, como una vía de intercambio de recursos, conocimientos y metodologías que enriquecen y completan la experiencia internacional de estudiar diseño en ESDI.
+              - paragraph [ref=f19e249]
+          - list [ref=f19e250]:
+            - listitem [ref=f19e251]:
+              - paragraph [ref=f19e252]: "PROGRAMA ERASMUS+: posibilita cursar un semestre o un curso académico en universidades europeas asociadas, con reconocimiento oficial de créditos y acceso a ayudas económicas para la movilidad."
+            - listitem [ref=f19e253]:
+              - paragraph [ref=f19e254]: "PROGRAMA FREEMOVING: permite estudiar en universidades fuera del marco Erasmus+, en cualquier parte del mundo, mediante convenios bilaterales que facilitan el reconocimiento académico de las asignaturas cursadas."
+        - list [ref=f19e256]:
+          - listitem [ref=f19e257]:
+            - link "VER INTERNACIONAL" [ref=f19e258] [cursor=pointer]:
+              - /url: https://esdi.es/internacional/
+      - generic [ref=f19e261]:
+        - link [ref=f19e262] [cursor=pointer]:
+          - /url: https://www.instagram.com/p/DRCbfE3CCPh/
+          - img "proyecto de diseño gráfico, grado en diseño esdi" [ref=f19e263]
+          - paragraph [ref=f19e266]: LOS RODRÍGUEZ by Sandra Rodríguez
+        - link [ref=f19e267] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - img "proyecto de diseño de moda, grado en diseño esdi" [ref=f19e268]
+          - generic [ref=f19e270]:
+            - paragraph [ref=f19e271]: UNDE MERGEN? by Andreea Oros
+            - paragraph [ref=f19e272]: "Fotografía: Noemí Bogya"
+            - paragraph [ref=f19e273]: "Modelo: Albert Viñas de View Management"
+        - link [ref=f19e274] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - img "proyecto diseño audiovisual, grado en diseño esdi" [ref=f19e275]
+          - paragraph [ref=f19e278]: VIDAS OCULTAS by Clàudia Campo
+        - link [ref=f19e279] [cursor=pointer]:
+          - /url: https://esdi.es/noticias/nexusvision_llum_bcn_esdi/
+          - img "instalación proyecto de diseño de interiores esdi x yamaha para el llum bcn" [ref=f19e280]
+          - paragraph [ref=f19e283]: "NEXUSVISION: ESDI X YAMAHA EN LLUM BCN 2025 by Sara Gómez, Júlia Peñuela, Maria Selva y Mar Cerrato"
+      - generic [ref=f19e285]:
+        - heading "Prácticas en empresas" [level=2] [ref=f19e286]
+        - generic [ref=f19e288]:
+          - paragraph [ref=f19e290]: "Las prácticas de empresa tienen la función de completar y reforzar la formación del estudiante con experiencias profesionales en el ámbito empresarial. Hay dos tipos de convenios alumnado-universidad-empresa:"
+          - list [ref=f19e291]:
+            - listitem [ref=f19e292]:
+              - paragraph [ref=f19e293]: Convenio regulador de la asignatura “Prácticas de empresa” (prácticas curriculares), asignatura obligatoria con valoración académica (14 ECTS).
+            - listitem [ref=f19e294]:
+              - paragraph [ref=f19e295]: Convenio de prácticas de cooperación educativa por ejercitación de conocimientos (prácticas extracurriculares), sin carga crediticia.
+        - list [ref=f19e297]:
+          - listitem [ref=f19e298]:
+            - link "Normativa de prácticas curriculares" [ref=f19e299] [cursor=pointer]:
+              - /url: https://esdi.es/wp-content/uploads/docs/academico/Normativa-practicas-curriculares_Grado.pdf
+          - listitem [ref=f19e300]:
+            - link "Normativa de prácticas extracurriculares" [ref=f19e301] [cursor=pointer]:
+              - /url: https://esdi.es/wp-content/uploads/docs/academico/Normativa-practicas-extracurriculares_Grado.pdf
+      - generic [ref=f19e302]:
+        - heading "Competencias clave" [level=2] [ref=f19e303]
+        - generic [ref=f19e305]:
+          - paragraph [ref=f19e306]: "A lo largo del Grado en Diseño, el alumnado desarrollará un conjunto de competencias transversales y específicas que le permitirán afrontar con solvencia los retos propios de la profesión. Entre las principales capacidades adquiridas destacan:"
+          - list [ref=f19e307]:
+            - listitem [ref=f19e308]: Generar propuestas creativas originales y adaptadas a distintos contextos.
+            - listitem [ref=f19e309]: Analizar de forma crítica problemáticas sociales, culturales y estéticas.
+            - listitem [ref=f19e310]: Conceptualizar, desarrollar y comunicar proyectos de diseño en todas sus fases.
+            - listitem [ref=f19e311]: Aplicar metodologías de investigación y procesos de innovación en el ámbito del diseño.
+            - listitem [ref=f19e312]: Utilizar herramientas digitales, tecnológicas y de representación visual.
+            - listitem [ref=f19e313]: Colaborar en equipos multidisciplinares, liderando y gestionando proyectos cuando sea necesario.
+            - listitem [ref=f19e314]: Adaptarse a entornos profesionales cambiantes y mantener un aprendizaje autónomo continuo.
+            - listitem [ref=f19e315]: Integrar criterios de sostenibilidad, ética y responsabilidad social en la práctica profesional.
+            - listitem [ref=f19e316]: Comunicar de manera eficaz en contextos académicos, profesionales e internacionales.
+      - generic [ref=f19e317]:
+        - heading "FAQs" [level=2] [ref=f19e318]
+        - list [ref=f19e320]:
+          - listitem [ref=f19e321]:
+            - 'button "Mostrar u ocultar la respuesta a: ¿Se trata de un Grado Universitario Oficial?" [ref=f19e322] [cursor=pointer]':
+              - paragraph [ref=f19e323]: ¿Se trata de un Grado Universitario Oficial?
+              - img "Mostrar" [ref=f19e325]
+            - paragraph [ref=f19e327]: Sí. El Grado en Diseño de ESDI es una titulación universitaria oficial expedida por la Universitat Ramon Llull y reconocida dentro del Espacio Europeo de Educación Superior (EEES). Además, cuenta con la acreditación de calidad de la Agencia para la Calidad del Sistema Universitario de Cataluña (AQU).
+          - listitem [ref=f19e328]:
+            - 'button "Mostrar u ocultar la respuesta a: ¿Cómo es el proceso de admisión al Grado Universitario?" [ref=f19e329] [cursor=pointer]':
+              - paragraph [ref=f19e330]: ¿Cómo es el proceso de admisión al Grado Universitario?
+              - img "Mostrar" [ref=f19e332]
+            - paragraph [ref=f19e334]: El proceso de admisión está diseñado para conocer el perfil, la motivación y el potencial creativo de cada candidato/da. Para acceder al Grado, hay que cumplir alguna de las vías de acceso universitarias establecidas y realizar una prueba de admisión en línea de carácter creativo. Una vez superada la prueba, recibirás la carta de admisión y podrás formalizar la reserva de plaza.
+          - listitem [ref=f19e335]:
+            - 'button "Mostrar u ocultar la respuesta a: ¿Cómo es el proceso de admisión al Grado Universitario por alumnos internacionales?" [ref=f19e336] [cursor=pointer]':
+              - paragraph [ref=f19e337]: ¿Cómo es el proceso de admisión al Grado Universitario por alumnos internacionales?
+              - img "Mostrar" [ref=f19e339]
+            - paragraph [ref=f19e341]: Los estudiantes internacionales tienen que disponer de los estudios previos homologados o haber iniciado el proceso de homologación al sistema educativo español. Igual que el resto de candidatos, tendrán que realizar la prueba de admisión y seguir el proceso de reserva de plaza. El equipo de Admisiones acompaña el estudiante durante todas las fases del proceso.
+          - listitem [ref=f19e342]:
+            - 'button "Mostrar u ocultar la respuesta a: Cómo funcionan las especialidades al Grado Universitario?" [ref=f19e343] [cursor=pointer]':
+              - paragraph [ref=f19e344]: Cómo funcionan las especialidades al Grado Universitario?
+              - img "Mostrar" [ref=f19e346]
+            - paragraph [ref=f19e348]: "El Grado en Diseño ofrece cinco menciones o especialidades: Diseño de Moda, Diseño Gráfico, Diseño de Interiores, Diseño de Producto y Diseño Audiovisual. Durante los dos primeros cursos, los estudiantes cursan una base común de conocimientos y metodologías de diseño. Aun así, en algunas asignaturas ya se imparten temarios específicos y se desarrollan trabajos y actividades según el itinerario escogido. A partir del tercer curso, las asignaturas se especializan según la mención escogida, permitiendo profundizar en el ámbito profesional de interés."
+          - listitem [ref=f19e349]:
+            - 'button "Mostrar u ocultar la respuesta a: ¿Qué modalidades de pago se ofrecen?" [ref=f19e350] [cursor=pointer]':
+              - paragraph [ref=f19e351]: ¿Qué modalidades de pago se ofrecen?
+              - img "Mostrar" [ref=f19e353]
+            - paragraph [ref=f19e355]: ESDI dispone de diferentes modalidades de pago y opciones de financiación para facilitar el acceso a los estudios. El equipo de Admisiones puede informarte de las condiciones actualizadas, los plazos y las opciones disponibles en cada curso académico.
+          - listitem [ref=f19e356]:
+            - 'button "Mostrar u ocultar la respuesta a: ¿Disponéis de programa de Becas y Ayudas?" [ref=f19e357] [cursor=pointer]':
+              - paragraph [ref=f19e358]: ¿Disponéis de programa de Becas y Ayudas?
+              - img "Mostrar" [ref=f19e360]
+            - paragraph [ref=f19e362]: Sí. La Fundación del Diseño Textil FUNDIT ofrece un programa propio de becas, ayudas y premios para reconocer el talento y facilitar el acceso a los estudios universitarios. Entre las diferentes opciones destaca la Beca Mérito, que ofrece un descuento del 80%, así como otras convocatorias que pueden variar cada curso académico. Al tratarse de una titulación oficial universitaria, también es posible optar a becas públicas según los requisitos establecidos por las administraciones competentes.
+          - listitem [ref=f19e363]:
+            - 'button "Mostrar u ocultar la respuesta a: ¿En qué idiomas puedo hacer el Grado Universitario?" [ref=f19e364] [cursor=pointer]':
+              - paragraph [ref=f19e365]: ¿En qué idiomas puedo hacer el Grado Universitario?
+              - img "Mostrar" [ref=f19e367]
+            - paragraph [ref=f19e369]: El Grado en Diseño se puede cursar en catalán, castellano e inglés, dependiendo de la mención y del grupo académico seleccionado. Esta oferta permite a los estudiantes desarrollar una formación con una clara orientación internacional.
+          - listitem [ref=f19e370]:
+            - 'button "Mostrar u ocultar la respuesta a: ¿Cómo es la evaluación de las asignaturas?" [ref=f19e371] [cursor=pointer]':
+              - paragraph [ref=f19e372]: ¿Cómo es la evaluación de las asignaturas?
+              - img "Mostrar" [ref=f19e374]
+            - paragraph [ref=f19e376]: La evaluación combina diferentes metodologías para valorar tanto los conocimientos teóricos como las competencias prácticas. Según la asignatura, se tienen en cuenta proyectos, ejercicios, presentaciones, trabajos individuales o en equipo, prácticas y pruebas de evaluación continua. El objetivo es valorar el progreso del estudiante de manera integral y aplicada a la realidad profesional del diseño.
+          - listitem [ref=f19e377]:
+            - 'button "Mostrar u ocultar la respuesta a: ¿Existen costes extras en la matrícula del curso?" [ref=f19e378] [cursor=pointer]':
+              - paragraph [ref=f19e379]: ¿Existen costes extras en la matrícula del curso?
+              - img "Mostrar" [ref=f19e381]
+            - paragraph [ref=f19e383]: La matrícula del Grado incluye el acceso en las instalaciones, talleres y equipación especializada de ESDI. Algunos materiales específicos, como materiales de taller o software adicional, pueden suponer un coste complementario. El equipo de Admisiones puede informarte de los detalles según la mención escogida.
+          - listitem [ref=f19e384]:
+            - 'button "Mostrar u ocultar la respuesta a: ¿Qué salidas profesionales tiene el Grado en Diseño?" [ref=f19e385] [cursor=pointer]':
+              - paragraph [ref=f19e386]: ¿Qué salidas profesionales tiene el Grado en Diseño?
+              - img "Mostrar" [ref=f19e388]
+            - generic [ref=f19e389]:
+              - paragraph [ref=f19e390]: "El Grado en Diseño de ESDI te prepara para desarrollar tu carrera en sectores muy diversos, según la mención que elijas: Diseño Gráfico, Moda, Producto, Interiores o Audiovisual. Podrás trabajar en estudios de diseño, agencias creativas, marcas, empresas industriales, consultorías o iniciar tu propio proyecto profesional."
+              - paragraph [ref=f19e391]: Algunas de las salidas más habituales son el diseño gráfico y digital, branding, dirección de arte, diseño de producto, diseño de interiores, estilismo y diseño de moda, packaging, UX/UI, comunicación visual, investigación o docencia. Además, la metodología de ESDI, basada en proyectos reales y la colaboración con empresas, facilita una incorporación al mercado laboral con experiencia práctica.
+          - listitem [ref=f19e392]:
+            - 'button "Mostrar u ocultar la respuesta a: ¿Se pueden hacer prácticas en empresas durante el Grado?" [ref=f19e393] [cursor=pointer]':
+              - paragraph [ref=f19e394]: ¿Se pueden hacer prácticas en empresas durante el Grado?
+              - img "Mostrar" [ref=f19e396]
+            - generic [ref=f19e397]:
+              - paragraph [ref=f19e398]: Sí. Las prácticas en empresa forman parte del plan de estudios del Grado en Diseño de ESDI-Universitat Ramon Llull. El alumnado realiza prácticas curriculares obligatorias (14 ECTS) que permiten aplicar los conocimientos adquiridos en un entorno profesional real. Además, también se pueden hacer prácticas extracurriculares para ampliar la experiencia y el contacto con el sector.
+              - paragraph [ref=f19e399]: ESDI cuenta con una amplia red de empresas colaboradoras de diferentes ámbitos del diseño, donde los estudiantes desarrollan proyectos reales y adquieren experiencia antes de acabar los estudios, hecho que favorece su inserción laboral.
+      - generic [ref=f19e400]:
+        - heading "Descarga toda la información" [level=2] [ref=f19e401]
+        - list [ref=f19e403]:
+          - listitem [ref=f19e404]:
+            - link "PROCESO DE ADMISIÓN" [ref=f19e405] [cursor=pointer]:
+              - /url: https://esdi.es/estudios/grado-en-diseno/proceso-de-admision/
+          - listitem [ref=f19e406]:
+            - link "BECAS Y AYUDAS" [ref=f19e407] [cursor=pointer]:
+              - /url: https://esdi.es/becas-ayudas/
+          - listitem [ref=f19e408]:
+            - link "GUÍA ACADÉMICA" [ref=f19e409] [cursor=pointer]:
+              - /url: https://esdi.es/wp-content/uploads/docs/academico/Guia-academica_Grado-Diseno.pdf
+          - listitem [ref=f19e410]:
+            - link "CALENDARIO ACADÉMICO" [ref=f19e411] [cursor=pointer]:
+              - /url: https://esdi.es/wp-content/uploads/docs/academico/Calendario-academico_Grado-Diseno.pdf
+          - listitem [ref=f19e412]:
+            - link "NORMATIVA TFG" [ref=f19e413] [cursor=pointer]:
+              - /url: https://esdi.es/wp-content/uploads/docs/academico/Normativa-TFG_Grado-Diseno.pdf
+      - generic [ref=f19e414]:
+        - heading "Equipo académico" [level=2] [ref=f19e415]
+        - list [ref=f19e417]:
+          - listitem [ref=f19e418]:
+            - button "Mostrar u ocultar información de DRA. ENCARNA RUIZ" [ref=f19e419] [cursor=pointer]:
+              - paragraph [ref=f19e420]: DRA. ENCARNA RUIZ
+              - img "Mostrar" [ref=f19e422]
+            - generic [ref=f19e425]:
+              - generic [ref=f19e426]:
+                - generic [ref=f19e427]: DIRECTORA ACADÉMICA DE ESDI-URL
+                - paragraph [ref=f19e429]: Directora académica de ESDI-URL y Doctora en Periodismo por la UAB. Es investigadora principal del grupo de investigación TADD desde el año 2018. Entre 2012 y 2024 ha dirigido ESDI Color Lab, un laboratorio que realiza investigación en tendencias de color, como representante de España en la Asociación Internacional del Color, Intercolor. Su trayectoria investigadora se sitúa en el análisis social y el diagnóstico de tendencias sociales que repercuten directamente en los diferentes ámbitos del diseño. Ha participado en encuentros internacionales y congresos y ha escrito varios artículos y libros relacionados con la semiótica y la sociología del diseño.
+              - link "IN" [ref=f19e431] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/encarna-ruiz-esdi-16980041/
+          - listitem [ref=f19e433]:
+            - button "Mostrar u ocultar información de JORGE ZUAZO" [ref=f19e434] [cursor=pointer]:
+              - paragraph [ref=f19e435]: JORGE ZUAZO
+              - img "Mostrar" [ref=f19e437]
+            - generic [ref=f19e440]:
+              - generic [ref=f19e441]:
+                - generic [ref=f19e442]: JEFE DE ESTUDIOS AEAD MODA
+                - paragraph [ref=f19e444]: Bachelor of Arts with Honours in Fashion Design en la especialidad de Géneros de Punto, por la Universidad de Southamton a través de la Escuela de Artes y Técnicas de la Moda EATM. Director creativo y fundador de la marca Gacela Socks, es también Product Manager freelance para diferentes empresas, como Camper, TCN, Bobo Choses, Sivasdescalzo, Hoss Intropia, etc.
+              - link "IN" [ref=f19e446] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/jorge-zuazo-torres/
+          - listitem [ref=f19e448]:
+            - button "Mostrar u ocultar información de DAVID PABLO GARCIA" [ref=f19e449] [cursor=pointer]:
+              - paragraph [ref=f19e450]: DAVID PABLO GARCIA
+              - img "Mostrar" [ref=f19e452]
+            - generic [ref=f19e453]:
+              - img "david pablo jefe aead interiores esdi" [ref=f19e455]
+              - generic [ref=f19e456]:
+                - generic [ref=f19e457]:
+                  - generic [ref=f19e458]: JEFE DE ESTUDIOS AEAD INTERIORES
+                  - paragraph [ref=f19e460]: Diseñador de Interiores por Elisava y Bachelor of Arts in Honours in Design por la Southampton University. Head designer y founder del estudio Satélite Interiors, ha sido jefe de equipo en el departamento de interiorismo de Mango y responsable de interiorismo y diseño industrial en b720 Arquitectos.
+                - link "IN" [ref=f19e462] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/david-pablo-garcia-91352229/
+          - listitem [ref=f19e464]:
+            - button "Mostrar u ocultar información de ANNA GUTIÉRREZ CASAJUANA" [ref=f19e465] [cursor=pointer]:
+              - paragraph [ref=f19e466]: ANNA GUTIÉRREZ CASAJUANA
+              - img "Mostrar" [ref=f19e468]
+            - generic [ref=f19e471]:
+              - generic [ref=f19e472]:
+                - generic [ref=f19e473]: GESTORA DE PROYECTOS INDUTRIALES Y PROCESOS PRODUCTIVOS
+                - paragraph [ref=f19e475]: Diseñadora industrial con experiencia profesional basada en la gestión de proyectos de mobiliario. Lleva años trabajando en el desarrollo de diferentes productos, en el control de producción y en la mejora de resultados productivos, pensando en aspectos estéticos, técnicos y financieros. También está vinculada a la docencia, implantando asignaturas vinculadas con el diseño.
+              - generic [ref=f19e476]:
+                - link "WB" [ref=f19e477] [cursor=pointer]:
+                  - /url: https://www.matildastudio.com
+                - text: ","
+                - link "IN" [ref=f19e478] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/anna-gutierrez-11b8a518/
+          - listitem [ref=f19e480]:
+            - button "Mostrar u ocultar información de DR. IVÁN MARINO DE ARECHAVALA" [ref=f19e481] [cursor=pointer]:
+              - paragraph [ref=f19e482]: DR. IVÁN MARINO DE ARECHAVALA
+              - img "Mostrar" [ref=f19e484]
+            - generic [ref=f19e485]:
+              - img "ivan marino jefe estudios audiovisual esdi" [ref=f19e487]
+              - generic [ref=f19e488]:
+                - generic [ref=f19e489]:
+                  - generic [ref=f19e490]: JEFE DE ESTUDIOS AEAD AUDIOVISUAL
+                  - paragraph [ref=f19e492]: Artista multimedia, profesor e investigador. PhD Summa Cum Laude en Comunicación (Mención Europea). Estudió cine y programación, combinando humanidades y técnica. Visiting Scholar en UdK Berlin (1997) y UCLA (1998-99). Realizó estancias académicas en ZKM y KHM (2002-08). Actualmente produce, ejerce la docencia y la investigación universitaria en Barcelona.
+                - generic [ref=f19e493]:
+                  - link "WB" [ref=f19e494] [cursor=pointer]:
+                    - /url: https://ivan-marino.com/
+                  - text: ","
+                  - link "IN" [ref=f19e495] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/ivan-marino-5597951/
+          - listitem [ref=f19e497]:
+            - button "Mostrar u ocultar información de JOSEP SERRA VIRGILI" [ref=f19e498] [cursor=pointer]:
+              - paragraph [ref=f19e499]: JOSEP SERRA VIRGILI
+              - img "Mostrar" [ref=f19e501]
+            - generic [ref=f19e504]:
+              - generic [ref=f19e505]:
+                - generic [ref=f19e506]: RESPONSABLE DE INNOVACIÓN DOCENTE Y DESARROLLO DE PROGRAMAS
+                - paragraph [ref=f19e508]: Ingeniero técnico industrial y licenciado en Publicidad y Relaciones Públicas. Combina su trabajo como ilustrador con la investigación en educación y pensamiento creativo. Es responsable de Innovación Docente y Desarrollo de Programas en ESDI-URL y doctorando en Educación y Arte en la UAB.
+              - generic [ref=f19e509]:
+                - link "WB" [ref=f19e510] [cursor=pointer]:
+                  - /url: https://pepeserra.cat
+                - text: ","
+                - link "IN" [ref=f19e511] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/pepe-serra-91065748/
+                - text: ","
+                - link "IG" [ref=f19e512] [cursor=pointer]:
+                  - /url: https://www.instagram.com/pepeserra
+          - listitem [ref=f19e514]:
+            - button "Mostrar u ocultar información de DRA. MARCELA LUCCI" [ref=f19e515] [cursor=pointer]:
+              - paragraph [ref=f19e516]: DRA. MARCELA LUCCI
+              - img "Mostrar" [ref=f19e518]
+            - generic [ref=f19e522]:
+              - generic [ref=f19e523]: HISTORIADORA
+              - paragraph [ref=f19e525]: Historiadora especializada en temas culturales vinculados a los problemas europeos y americanos contemporáneos.
+          - listitem [ref=f19e527]:
+            - button "Mostrar u ocultar información de DRA. ELIZABETH FERRÁNDIZ" [ref=f19e528] [cursor=pointer]:
+              - paragraph [ref=f19e529]: DRA. ELIZABETH FERRÁNDIZ
+              - img "Mostrar" [ref=f19e531]
+            - generic [ref=f19e534]:
+              - generic [ref=f19e535]:
+                - generic [ref=f19e536]: DEPARTAMENTO UNIVERSITARIO DE TEORÍA Y ANÁLISIS DEL DISEÑO
+                - paragraph [ref=f19e538]: Licenciada en Bellas Artes por la UB y Doctora en Psicología por la UAB. Postgrado en Técnicas de Animación por Ordenador por la Escuela Pia de Sarrià. Con más de 20 años de trayectoria vinculada a la docencia, a la investigación aplicada, a la gestión docente y a la gestión de la calidad docente. Actualmente es profesora del Departamento Universitario de Teoría y Análisis del Diseño y forma parte del grupo de investigación de Teoría, Análisis y Desarrollo del Diseño (TADD) de ESDI-URL.
+              - link "IN" [ref=f19e540] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/eferrandiz/
+          - listitem [ref=f19e542]:
+            - button "Mostrar u ocultar información de SALUT FORRELLAT" [ref=f19e543] [cursor=pointer]:
+              - paragraph [ref=f19e544]: SALUT FORRELLAT
+              - img "Mostrar" [ref=f19e546]
+            - generic [ref=f19e549]:
+              - generic [ref=f19e550]:
+                - generic [ref=f19e551]: DISEÑADORA DE VESTUARIO
+                - paragraph [ref=f19e553]: Título superior en Diseño Gráfico por EINA, Máster en Asesoría de imagen y personal shopper y CFGS en Vestuario a medida y de espectáculos por ESDI. Ha sido ayudante de vestuario en teatro, cine y televisión, así como ayudante de confección en ateliers. También ha trabajado como diseñadora gráfica y directora de arte en varios estudios y empresas.
+              - link "IN" [ref=f19e555] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/salutforrellat/
+      - generic [ref=f19e557]:
+        - heading "Colaboradores docentes comunes" [level=2] [ref=f19e558]
+        - list [ref=f19e560]:
+          - listitem [ref=f19e561]:
+            - button "Mostrar u ocultar información de DR. GERARD TORRES SANMARTÍ" [ref=f19e562] [cursor=pointer]:
+              - paragraph [ref=f19e563]: DR. GERARD TORRES SANMARTÍ
+              - img "Mostrar" [ref=f19e565]
+            - generic [ref=f19e568]:
+              - generic [ref=f19e569]:
+                - generic [ref=f19e570]: PINTOR Y DOCTOR EN BELLAS ARTES
+                - paragraph [ref=f19e572]: Pintor y Doctor en Bellas Artes por la Universidad de Barcelona. Su obra explora la potencialidad de la pintura con la relación de residuos materiales y conceptuales del proceso creativo. Ha expuesto en instituciones y galerías como la Fundación Arranz-Bravo, Museu d’Art de Sabadell y el Zhi Art Museum de Shenzhen y Shu Gallery, entre otros.
+              - generic [ref=f19e573]:
+                - link "IN" [ref=f19e574] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/gerardtsanmarti/
+                - text: ","
+                - link "IG" [ref=f19e575] [cursor=pointer]:
+                  - /url: https://www.instagram.com/gerardtorres
+          - listitem [ref=f19e577]:
+            - button "Mostrar u ocultar información de DR. LUCA PAGLIARI" [ref=f19e578] [cursor=pointer]:
+              - paragraph [ref=f19e579]: DR. LUCA PAGLIARI
+              - img "Mostrar" [ref=f19e581]
+            - generic [ref=f19e585]:
+              - generic [ref=f19e586]: ARTISTA PLÁSTICO ESPECIALISTA EN FOTOGRAFÍA
+              - paragraph [ref=f19e588]: Laurea en Arte y Fotografía por la Università del Progetto y Doctor en Economía de Empresa por la Università Luigi Bocconi. Cuenta con más de 30 años de experiencia en el campo de las artes visuales. Su obra se ha expuesto en galerías y museos de todo el mundo. Además de desarrollar su actividad artística, trabaja como comisario independiente y como consultor para escuelas, instituciones culturales y empresas de arte.
+          - listitem [ref=f19e590]:
+            - button "Mostrar u ocultar información de CESC BONSFILLS GISBERT" [ref=f19e591] [cursor=pointer]:
+              - paragraph [ref=f19e592]: CESC BONSFILLS GISBERT
+              - img "Mostrar" [ref=f19e594]
+            - generic [ref=f19e597]:
+              - generic [ref=f19e598]:
+                - generic [ref=f19e599]: ARQUITECTO Y ESCENÓGRAFO
+                - paragraph [ref=f19e601]: Arquitecto por la ETSAB 2005, escenógrafo y docente. Combina los proyectos de su estudio de arquitectura con la docencia en el Instituto Ramar 2 y en ESDI. Formado en Escenografía y Arquitectura Efímera, ha participado en más de 30 producciones profesionales de teatro o danza contemporánea y en 2021 ganó el Premio de Arquitectura Efímera del COAC.
+              - generic [ref=f19e602]:
+                - link "WB" [ref=f19e603] [cursor=pointer]:
+                  - /url: https://escenografia.cat
+                - text: ","
+                - link "IN" [ref=f19e604] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/francesc-bonsfills-2ab87930/
+                - text: ","
+                - link "IG" [ref=f19e605] [cursor=pointer]:
+                  - /url: https://www.instagram.com/bonsfills_arquitectura/
+          - listitem [ref=f19e607]:
+            - button "Mostrar u ocultar información de LALO QUINTANA" [ref=f19e608] [cursor=pointer]:
+              - paragraph [ref=f19e609]: LALO QUINTANA
+              - img "Mostrar" [ref=f19e611]
+            - generic [ref=f19e615]:
+              - generic [ref=f19e616]: DISEÑADOR GRÁFICO ESPECIALIZADO EN IMAGEN CORPORATIVA, DISEÑO EDITORIAL Y PACKAGING
+              - paragraph [ref=f19e618]:
+                - text: Arquitecto por la Universidad de Córdoba (Argentina) y
+                - link "Máster Universitario en Comisariado de arte en nuevos medios" [ref=f19e619] [cursor=pointer]:
+                  - /url: https://esdi.es/estudios/masters-y-postgrados/master-comisariado-arte-digital/
+                - text: por ESDI-URL. Diseñador gráfico especializado en imagen corporativa, diseño editorial y packaging.
+          - listitem [ref=f19e621]:
+            - button "Mostrar u ocultar información de DANIEL LUMBRERAS OUBIÑA" [ref=f19e622] [cursor=pointer]:
+              - paragraph [ref=f19e623]: DANIEL LUMBRERAS OUBIÑA
+              - img "Mostrar" [ref=f19e625]
+            - generic [ref=f19e628]:
+              - generic [ref=f19e629]:
+                - generic [ref=f19e630]: ARTISTA Y MÚSICO
+                - paragraph [ref=f19e632]: Graduado en Diseño Gráfico por Elisava, licenciado en Bellas Artes por la UB, Máster en Producción e Investigación Artística por la UB, y actualmente cursando el doctorado sobre la relación entre pintura y música desde la perspectiva de la filosofía del lenguaje en la UB. Compagina su carrera artística y musical con la docencia en ESDI, en la Facultad de Bellas Artes de la UB y en Metáfora (Máster Arteterapia).
+              - generic [ref=f19e633]:
+                - link "WB" [ref=f19e634] [cursor=pointer]:
+                  - /url: https://www.daniel-lumbreras.com/
+                - text: ","
+                - link "IG" [ref=f19e635] [cursor=pointer]:
+                  - /url: https://www.instagram.com/daniel.lumbreras_/
+          - listitem [ref=f19e637]:
+            - button "Mostrar u ocultar información de DAVIT MALAKYAN" [ref=f19e638] [cursor=pointer]:
+              - paragraph [ref=f19e639]: DAVIT MALAKYAN
+              - img "Mostrar" [ref=f19e641]
+            - generic [ref=f19e644]:
+              - generic [ref=f19e645]:
+                - generic [ref=f19e646]: DISEÑADOR DE MODA ESPECIALISTA EN ESTAMPACIÓN
+                - paragraph [ref=f19e648]: Diseñador de moda por ESDI y especialista en estampación. Es el director creativo y diseñador de calzado de Gavary Group.
+              - link "IN" [ref=f19e650] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/davitmalakyan/
+          - listitem [ref=f19e652]:
+            - button "Mostrar u ocultar información de DR. FEDE PRATS SALMURRI" [ref=f19e653] [cursor=pointer]:
+              - paragraph [ref=f19e654]: DR. FEDE PRATS SALMURRI
+              - img "Mostrar" [ref=f19e656]
+            - generic [ref=f19e659]:
+              - generic [ref=f19e660]:
+                - generic [ref=f19e661]: CONSULTOR ESTRATÉGICO
+                - paragraph [ref=f19e663]: Doctor, especialidad en Finanzas, Emprendeduría y Business Plans. Docente universitario en ESDI, ESCI, ABAT OLIBA CEU, IED, UB, IQS, entre otras. Director y fundador de Sintetiza.consulting. Apartamentos turísticos Llafranc 100%.
+              - link "WB" [ref=f19e665] [cursor=pointer]:
+                - /url: https://sintetiza.consulting
+          - listitem [ref=f19e667]:
+            - button "Mostrar u ocultar información de GABRIELA COHN RAZNOVICH" [ref=f19e668] [cursor=pointer]:
+              - paragraph [ref=f19e669]: GABRIELA COHN RAZNOVICH
+              - img "Mostrar" [ref=f19e671]
+            - generic [ref=f19e674]:
+              - generic [ref=f19e675]:
+                - generic [ref=f19e676]: Diseñadora gráfica y Joyera
+                - paragraph [ref=f19e678]: Diseñadora gráfica y joyera contemporánea. Cuenta con una formación internacional en Jerusalem, Italia, Alemania y Francia. Ha impartido clases en distintos países de Europa y Latinoamérica. Actualmente combina la actividad académica, el diseño gráfico y la creación de joyería en su estudio de Barcelona. Sus piezas han sido expuestas en galerías de arte y ferias en toda Europa.
+              - generic [ref=f19e679]:
+                - link "IN" [ref=f19e680] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/gabriela-cohn-74aaa78/
+                - text: ","
+                - link "IG" [ref=f19e681] [cursor=pointer]:
+                  - /url: https://www.instagram.com/gabriela_cohn_jewellery/
+          - listitem [ref=f19e683]:
+            - button "Mostrar u ocultar información de EMMA LAFOZ PÉREZ" [ref=f19e684] [cursor=pointer]:
+              - paragraph [ref=f19e685]: EMMA LAFOZ PÉREZ
+              - img "Mostrar" [ref=f19e687]
+            - generic [ref=f19e690]:
+              - generic [ref=f19e691]:
+                - generic [ref=f19e692]: COORDINADORA MÁSTER FASHION MANAGEMENT Y DISEÑADORA DE MODA
+                - paragraph [ref=f19e694]: Graduada en Diseño de Moda y Máster en Gestión de la Industria de la Moda por ESDI-URL y Especialidad en Dirección estratégica por IE university. Emprendedora y fundadora de NiaLafoz, donde aportamos al mundo de la moda una visión inclusiva, a través de creatividad, estrategia y el compromiso social.
+              - link "IN" [ref=f19e696] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/emmalafozperez/
+          - listitem [ref=f19e698]:
+            - button "Mostrar u ocultar información de ERIKA GOYARROLA" [ref=f19e699] [cursor=pointer]:
+              - paragraph [ref=f19e700]: ERIKA GOYARROLA
+              - img "Mostrar" [ref=f19e702]
+            - generic [ref=f19e705]:
+              - generic [ref=f19e706]:
+                - generic [ref=f19e707]: DOCENTE Y COMISARIA
+                - paragraph [ref=f19e709]: Doctora en Humanidades por la Universidat Pompeu Fabra y licenciada en Historia del Arte por la Universidad Complutense, se dedica a la docencia, la gestión cultural y el comisariado de exposiciones. Ha colaborado con la Fundació la Caixa, la Fundación MAPFRE, el Jeu de Paume de París, el estudio de arquitectura Carlos Arroyo Architects o Contact Press Images.
+              - link "IN" [ref=f19e711] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/erika-goyarrola-olano-a1877229/
+          - listitem [ref=f19e713]:
+            - button "Mostrar u ocultar información de CAROLINA SAYES MALDONADO" [ref=f19e714] [cursor=pointer]:
+              - paragraph [ref=f19e715]: CAROLINA SAYES MALDONADO
+              - img "Mostrar" [ref=f19e717]
+            - generic [ref=f19e720]:
+              - generic [ref=f19e721]:
+                - generic [ref=f19e722]: ARQUITECTA ESPECIALIZADA EN BIOCONSTRUCCIÓN Y SALUD EN EL HÁBITAT
+                - paragraph [ref=f19e724]: Enfoca su carrera profesional en ámbitos de la Salud del Hábitat, la Sostenibilidad y la Eficiencia energética junto a La Companyia Verda. En el ámbito académico, colabora desde 2016 con diversos centros de diseño impartiendo asignaturas como Ecodiseño, Sostenibilidad, Ética de la profesión, Ergonomía, o Salud en el hábitat, entre otros.
+              - generic [ref=f19e725]:
+                - link "WB" [ref=f19e726] [cursor=pointer]:
+                  - /url: https://lacompanyiaverda.com
+                - text: ","
+                - link "IN" [ref=f19e727] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/carolinasayesmaldonado/
+                - text: ","
+                - link "IG" [ref=f19e728] [cursor=pointer]:
+                  - /url: https://www.instagram.com/lacompanyiaverda/
+      - generic [ref=f19e730]:
+        - heading "Solicita información" [level=2] [ref=f19e731]
+        - generic [ref=f19e732]:
+          - generic [ref=f19e735]:
+            - group [ref=f19e736]:
+              - generic [ref=f19e737]:
+                - generic [ref=f19e738]: Nombre*
+                - textbox "Nombre*" [ref=f19e740]:
+                  - /placeholder: ""
+              - generic [ref=f19e741]:
+                - generic [ref=f19e742]: Apellidos*
+                - textbox "Apellidos*" [ref=f19e744]:
+                  - /placeholder: ""
+            - group [ref=f19e745]:
+              - generic [ref=f19e746]:
+                - generic [ref=f19e747]: Correo*
+                - textbox "Correo*" [ref=f19e749]:
+                  - /placeholder: ""
+            - group [ref=f19e750]:
+              - generic [ref=f19e751]:
+                - generic [ref=f19e752]: País*
+                - combobox "País*" [ref=f19e754] [cursor=pointer]:
+                  - option "Selecciona" [disabled] [selected]
+                  - option "Afganistán"
+                  - option "Albania"
+                  - option "Alemania"
+                  - option "Andorra"
+                  - option "Angola"
+                  - option "Anguila"
+                  - option "Antártida"
+                  - option "Antigua y Barbuda"
+                  - option "Antillas Holandesas"
+                  - option "Arabia Saudita"
+                  - option "Argelia"
+                  - option "Argentina"
+                  - option "Armenia"
+                  - option "Aruba"
+                  - option "Australia"
+                  - option "Austria"
+                  - option "Azerbaiyán"
+                  - option "Bahamas"
+                  - option "Bahrein"
+                  - option "Bangladesh"
+                  - option "Barbados"
+                  - option "Bélgica"
+                  - option "Belice"
+                  - option "Benin"
+                  - option "Bielorrusia"
+                  - option "Bolivia"
+                  - option "Bosnia y Herzegovina"
+                  - option "Botsuana"
+                  - option "Brasil"
+                  - option "Brunei"
+                  - option "Bulgaria"
+                  - option "Burkina Faso"
+                  - option "Burundi"
+                  - option "Bután"
+                  - option "Cabo Verde"
+                  - option "Camboya"
+                  - option "Camerún"
+                  - option "Canadá"
+                  - option "Canarias"
+                  - option "Caribe Holandés"
+                  - option "Chad"
+                  - option "Chile"
+                  - option "China"
+                  - option "Chipre"
+                  - option "Ciudad del Vaticano"
+                  - option "Colombia"
+                  - option "Comoras"
+                  - option "Congo"
+                  - option "Corea del Norte"
+                  - option "Corea del Sur"
+                  - option "Costa de Marfil"
+                  - option "Costa Rica"
+                  - option "Croacia"
+                  - option "Cuba"
+                  - option "Curazao"
+                  - option "Dinamarca"
+                  - option "Djibouti"
+                  - option "Dominica"
+                  - option "Ecuador"
+                  - option "Egipto"
+                  - option "El Salvador"
+                  - option "Emiratos Árabes Unidos"
+                  - option "Eritrea"
+                  - option "Eslovaquia"
+                  - option "Eslovenia"
+                  - option "España"
+                  - option "Estados Unidos"
+                  - option "Estonia"
+                  - option "Etiopía"
+                  - option "Europa"
+                  - option "Filipinas"
+                  - option "Finlandia"
+                  - option "Fiyi"
+                  - option "Francia"
+                  - option "Gabón"
+                  - option "Gambia"
+                  - option "Georgia"
+                  - option "Georgia del sur y las islas Sandwich del sur"
+                  - option "Ghana"
+                  - option "Gibraltar"
+                  - option "Granada"
+                  - option "Grecia"
+                  - option "Groenlandia"
+                  - option "Guadalupe"
+                  - option "Guam"
+                  - option "Guatemala"
+                  - option "Guayana"
+                  - option "Guayana Francesa"
+                  - option "Guernsey"
+                  - option "Guinea"
+                  - option "Guinea Ecuatorial"
+                  - option "Guinea-Bissau"
+                  - option "Haití"
+                  - option "Honduras"
+                  - option "Hong Kong"
+                  - option "Hungría"
+                  - option "India"
+                  - option "Indonesia"
+                  - option "Irak"
+                  - option "Irán"
+                  - option "Irlanda"
+                  - option "Isla Bouvet"
+                  - option "Isla de Navidad"
+                  - option "Isla del hombre"
+                  - option "Isla Norfolk"
+                  - option "Islandia"
+                  - option "Islas Aland"
+                  - option "Islas Bermudas"
+                  - option "Islas Caimán"
+                  - option "Islas Cocos (Keeling)"
+                  - option "Islas Cook"
+                  - option "Islas Faroe"
+                  - option "Islas Heard y McDonald"
+                  - option "Islas Malvinas"
+                  - option "Islas Marianas del Norte"
+                  - option "Islas Marshall"
+                  - option "Islas menores alejadas de los Estados Unidos"
+                  - option "Islas Pitcairn"
+                  - option "Islas Salomón"
+                  - option "Islas Turcas y Caicos"
+                  - option "Islas Vírgenes Británicas"
+                  - option "Islas Vírgenes de EE.UU"
+                  - option "Israel"
+                  - option "Italia"
+                  - option "Jamaica"
+                  - option "Japón"
+                  - option "Jersey"
+                  - option "Jordán"
+                  - option "Katar"
+                  - option "Kazajstán"
+                  - option "Kenia"
+                  - option "Kirguizstán"
+                  - option "Kiribati"
+                  - option "Kosovo"
+                  - option "Kuwait"
+                  - option "Laos"
+                  - option "Lesoto"
+                  - option "Letonia"
+                  - option "Líbano"
+                  - option "Liberia"
+                  - option "Libia"
+                  - option "Liechtenstein"
+                  - option "Lituania"
+                  - option "Luxemburgo"
+                  - option "Macau"
+                  - option "Macedonia (ARYM)"
+                  - option "Madagascar"
+                  - option "Malasia"
+                  - option "Malawi"
+                  - option "Maldivas"
+                  - option "Mali"
+                  - option "Malta"
+                  - option "Marruecos"
+                  - option "Martinica"
+                  - option "Mauricio"
+                  - option "Mauritania"
+                  - option "Mayotte"
+                  - option "México"
+                  - option "Micronesia"
+                  - option "Moldavia"
+                  - option "Mónaco"
+                  - option "Mongolia"
+                  - option "Montenegro"
+                  - option "Montserrat"
+                  - option "Mozambique"
+                  - option "Myanmar (Birmania)"
+                  - option "Namibia"
+                  - option "Nauru"
+                  - option "Nepal"
+                  - option "Nicaragua"
+                  - option "Níger"
+                  - option "Nigeria"
+                  - option "Niue"
+                  - option "Noruega"
+                  - option "Nueva Caledonia"
+                  - option "Nueva Zelanda"
+                  - option "Omán"
+                  - option "Países Bajos"
+                  - option "Pakistán"
+                  - option "Palau"
+                  - option "Palestina"
+                  - option "Panamá"
+                  - option "Papúa Nueva Guinea"
+                  - option "Paraguay"
+                  - option "Perú"
+                  - option "Polinesia Francesa"
+                  - option "Polonia"
+                  - option "Portugal"
+                  - option "Puerto Rico"
+                  - option "Región Asia Pacífico"
+                  - option "Reino Unido"
+                  - option "República Centroafricana"
+                  - option "Republica checa"
+                  - option "República Democrática del Congo"
+                  - option "República Dominicana"
+                  - option "Reunión"
+                  - option "Ruanda"
+                  - option "Rumania"
+                  - option "Rusia"
+                  - option "Sahara Occidental"
+                  - option "Samoa"
+                  - option "Samoa Americana"
+                  - option "San Bartolomé"
+                  - option "San Cristóbal y Nieves"
+                  - option "San Marino"
+                  - option "San Martín"
+                  - option "San Pedro y Miquelón"
+                  - option "San Vicente y las Granadinas"
+                  - option "Santa helena"
+                  - option "Santa Lucía"
+                  - option "Santo Tomé y Príncipe"
+                  - option "Senegal"
+                  - option "Serbia"
+                  - option "Seychelles"
+                  - option "Sierra Leona"
+                  - option "Singapur"
+                  - option "Siria"
+                  - option "Somalia"
+                  - option "Sri Lanka"
+                  - option "Suazilandia"
+                  - option "Sudáfrica"
+                  - option "Sudán"
+                  - option "Sudán del Sur"
+                  - option "Suecia"
+                  - option "Suiza"
+                  - option "Surinam"
+                  - option "Svalbard y Jan Mayen"
+                  - option "Tailandia"
+                  - option "Taiwán"
+                  - option "Tanzania"
+                  - option "Tayikistan"
+                  - option "Territorio Británico del Océano Índico"
+                  - option "Tierras australes y antárticas francesas"
+                  - option "Timor oriental"
+                  - option "Togo"
+                  - option "Tokelau"
+                  - option "Tonga"
+                  - option "Trinidad y Tobago"
+                  - option "Túnez"
+                  - option "Turkmenistan"
+                  - option "Turquía"
+                  - option "Tuvalu"
+                  - option "Ucrania"
+                  - option "Uganda"
+                  - option "Uruguay"
+                  - option "Uzbekistán"
+                  - option "Vanuatu"
+                  - option "Venezuela"
+                  - option "Vietnam"
+                  - option "Wallis y Futuna"
+                  - option "Yemen"
+                  - option "Zambia"
+                  - option "Zimbabue"
+                  - option
+            - group [ref=f19e755]:
+              - generic [ref=f19e756]:
+                - generic [ref=f19e757]: Número de teléfono*
+                - generic [ref=f19e759]:
+                  - combobox [ref=f19e760] [cursor=pointer]:
+                    - option "*" [disabled]
+                    - option "Afghanistan (‫افغانستان‬‎)"
+                    - option "Albania (Shqipëri)"
+                    - option "Algeria (‫الجزائر‬‎)"
+                    - option "American Samoa"
+                    - option "Andorra"
+                    - option "Angola"
+                    - option "Anguilla"
+                    - option "Antigua and Barbuda"
+                    - option "Argentina"
+                    - option "Armenia (Հայաստան)"
+                    - option "Aruba"
+                    - option "Australia"
+                    - option "Austria (Österreich)"
+                    - option "Azerbaijan (Azərbaycan)"
+                    - option "Bahamas"
+                    - option "Bahrain (‫البحرين‬‎)"
+                    - option "Bangladesh (বাংলাদেশ)"
+                    - option "Barbados"
+                    - option "Belarus (Беларусь)"
+                    - option "Belgium (België)"
+                    - option "Belize"
+                    - option "Benin (Bénin)"
+                    - option "Bermuda"
+                    - option "Bhutan (འབྲུག)"
+                    - option "Bolivia"
+                    - option "Bosnia and Herzegovina (Босна и Херцеговина)"
+                    - option "Botswana"
+                    - option "Brazil (Brasil)"
+                    - option "British Indian Ocean Territory"
+                    - option "British Virgin Islands"
+                    - option "Brunei"
+                    - option "Bulgaria (България)"
+                    - option "Burkina Faso"
+                    - option "Burundi (Uburundi)"
+                    - option "Cambodia (កម្ពុជា)"
+                    - option "Cameroon (Cameroun)"
+                    - option "Canada"
+                    - option "Cape Verde (Kabu Verdi)"
+                    - option "Caribbean Netherlands"
+                    - option "Cayman Islands"
+                    - option "Central African Republic (République centrafricaine)"
+                    - option "Chad (Tchad)"
+                    - option "Chile"
+                    - option "China (中国)"
+                    - option "Colombia"
+                    - option "Comoros (‫جزر القمر‬‎)"
+                    - option "Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)"
+                    - option "Congo (Republic) (Congo-Brazzaville)"
+                    - option "Cook Islands"
+                    - option "Costa Rica"
+                    - option "Côte d’Ivoire"
+                    - option "Croatia (Hrvatska)"
+                    - option "Cuba"
+                    - option "Curaçao"
+                    - option "Cyprus (Κύπρος)"
+                    - option "Czech Republic (Česká republika)"
+                    - option "Denmark (Danmark)"
+                    - option "Djibouti"
+                    - option "Dominica"
+                    - option "Dominican Republic (República Dominicana)"
+                    - option "Ecuador"
+                    - option "Egypt (‫مصر‬‎)"
+                    - option "El Salvador"
+                    - option "Equatorial Guinea (Guinea Ecuatorial)"
+                    - option "Eritrea"
+                    - option "Estonia (Eesti)"
+                    - option "Ethiopia"
+                    - option "Falkland Islands (Islas Malvinas)"
+                    - option "Faroe Islands (Føroyar)"
+                    - option "Fiji"
+                    - option "Finland (Suomi)"
+                    - option "France"
+                    - option "French Guiana (Guyane française)"
+                    - option "French Polynesia (Polynésie française)"
+                    - option "Gabon"
+                    - option "Gambia"
+                    - option "Georgia (საქართველო)"
+                    - option "Germany (Deutschland)"
+                    - option "Ghana (Gaana)"
+                    - option "Gibraltar"
+                    - option "Greece (Ελλάδα)"
+                    - option "Greenland (Kalaallit Nunaat)"
+                    - option "Grenada"
+                    - option "Guadeloupe"
+                    - option "Guam"
+                    - option "Guatemala"
+                    - option "Guinea (Guinée)"
+                    - option "Guinea-Bissau (Guiné Bissau)"
+                    - option "Guyana"
+                    - option "Haiti"
+                    - option "Honduras"
+                    - option "Hong Kong (香港)"
+                    - option "Hungary (Magyarország)"
+                    - option "Iceland (Ísland)"
+                    - option "India (भारत)"
+                    - option "Indonesia"
+                    - option "Iran (‫ایران‬‎)"
+                    - option "Iraq (‫العراق‬‎)"
+                    - option "Ireland"
+                    - option "Israel (‫ישראל‬‎)"
+                    - option "Italy (Italia)"
+                    - option "Jamaica"
+                    - option "Japan (日本)"
+                    - option "Jordan (‫الأردن‬‎)"
+                    - option "Kazakhstan (Казахстан)"
+                    - option "Kenya"
+                    - option "Kiribati"
+                    - option "Kosovo"
+                    - option "Kuwait (‫الكويت‬‎)"
+                    - option "Kyrgyzstan (Кыргызстан)"
+                    - option "Laos (ລາວ)"
+                    - option "Latvia (Latvija)"
+                    - option "Lebanon (‫لبنان‬‎)"
+                    - option "Lesotho"
+                    - option "Liberia"
+                    - option "Libya (‫ليبيا‬‎)"
+                    - option "Liechtenstein"
+                    - option "Lithuania (Lietuva)"
+                    - option "Luxembourg"
+                    - option "Macau (澳門)"
+                    - option "Macedonia (FYROM) (Македонија)"
+                    - option "Madagascar (Madagasikara)"
+                    - option "Malawi"
+                    - option "Malaysia"
+                    - option "Maldives"
+                    - option "Mali"
+                    - option "Malta"
+                    - option "Marshall Islands"
+                    - option "Martinique"
+                    - option "Mauritania (‫موريتانيا‬‎)"
+                    - option "Mauritius (Moris)"
+                    - option "Mexico (México)"
+                    - option "Micronesia"
+                    - option "Moldova (Republica Moldova)"
+                    - option "Monaco"
+                    - option "Mongolia (Монгол)"
+                    - option "Montenegro (Crna Gora)"
+                    - option "Montserrat"
+                    - option "Morocco (‫المغرب‬‎)"
+                    - option "Mozambique (Moçambique)"
+                    - option "Myanmar (Burma) (မြန်မာ)"
+                    - option "Namibia (Namibië)"
+                    - option "Nauru"
+                    - option "Nepal (नेपाल)"
+                    - option "Netherlands (Nederland)"
+                    - option "New Caledonia (Nouvelle-Calédonie)"
+                    - option "New Zealand"
+                    - option "Nicaragua"
+                    - option "Niger (Nijar)"
+                    - option "Nigeria"
+                    - option "Niue"
+                    - option "Norfolk Island"
+                    - option "North Korea (조선 민주주의 인민 공화국)"
+                    - option "Northern Mariana Islands"
+                    - option "Norway (Norge)"
+                    - option "Oman (‫عُمان‬‎)"
+                    - option "Pakistan (‫پاکستان‬‎)"
+                    - option "Palau"
+                    - option "Palestine (‫فلسطين‬‎)"
+                    - option "Panama (Panamá)"
+                    - option "Papua New Guinea"
+                    - option "Paraguay"
+                    - option "Peru (Perú)"
+                    - option "Philippines"
+                    - option "Poland (Polska)"
+                    - option "Portugal"
+                    - option "Puerto Rico"
+                    - option "Qatar (‫قطر‬‎)"
+                    - option "Réunion (La Réunion)"
+                    - option "Romania (România)"
+                    - option "Russia (Россия)"
+                    - option "Rwanda"
+                    - option "Saint Barthélemy (Saint-Barthélemy)"
+                    - option "Saint Helena"
+                    - option "Saint Kitts and Nevis"
+                    - option "Saint Lucia"
+                    - option "Saint Martin (Saint-Martin (partie française))"
+                    - option "Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)"
+                    - option "Saint Vincent and the Grenadines"
+                    - option "Samoa"
+                    - option "San Marino"
+                    - option "São Tomé and Príncipe (São Tomé e Príncipe)"
+                    - option "Saudi Arabia (‫المملكة العربية السعودية‬‎)"
+                    - option "Senegal (Sénégal)"
+                    - option "Serbia (Србија)"
+                    - option "Seychelles"
+                    - option "Sierra Leone"
+                    - option "Singapore"
+                    - option "Sint Maarten"
+                    - option "Slovakia (Slovensko)"
+                    - option "Slovenia (Slovenija)"
+                    - option "Solomon Islands"
+                    - option "Somalia (Soomaaliya)"
+                    - option "South Africa"
+                    - option "South Korea (대한민국)"
+                    - option "South Sudan (‫جنوب السودان‬‎)"
+                    - option "Spain (España)" [selected]
+                    - option "Sri Lanka (ශ්‍රී ලංකාව)"
+                    - option "Sudan (‫السودان‬‎)"
+                    - option "Suriname"
+                    - option "Swaziland"
+                    - option "Sweden (Sverige)"
+                    - option "Switzerland (Schweiz)"
+                    - option "Syria (‫سوريا‬‎)"
+                    - option "Taiwan (台灣)"
+                    - option "Tajikistan"
+                    - option "Tanzania"
+                    - option "Thailand (ไทย)"
+                    - option "Timor-Leste"
+                    - option "Togo"
+                    - option "Tokelau"
+                    - option "Tonga"
+                    - option "Trinidad and Tobago"
+                    - option "Tunisia (‫تونس‬‎)"
+                    - option "Turkey (Türkiye)"
+                    - option "Turkmenistan"
+                    - option "Turks and Caicos Islands"
+                    - option "Tuvalu"
+                    - option "U.S. Virgin Islands"
+                    - option "Uganda"
+                    - option "Ukraine (Україна)"
+                    - option "United Arab Emirates (‫الإمارات العربية المتحدة‬‎)"
+                    - option "United Kingdom"
+                    - option "United States"
+                    - option "Uruguay"
+                    - option "Uzbekistan (Oʻzbekiston)"
+                    - option "Vanuatu"
+                    - option "Vatican City (Città del Vaticano)"
+                    - option "Venezuela"
+                    - option "Vietnam (Việt Nam)"
+                    - option "Wallis and Futuna"
+                    - option "Yemen (‫اليمن‬‎)"
+                    - option "Zambia"
+                    - option "Zimbabwe"
+                  - textbox "Número de teléfono*" [ref=f19e761]:
+                    - /placeholder: ""
+                    - text: "+34"
+            - group [ref=f19e762]:
+              - generic [ref=f19e763]:
+                - generic [ref=f19e764]: Nivel de estudios*
+                - combobox "Nivel de estudios*" [ref=f19e766] [cursor=pointer]:
+                  - option "Selecciona" [disabled] [selected]
+                  - option "1o Bachillerato"
+                  - option "2o Bachillerato"
+                  - option "Diploma de educación vocacional"
+                  - option "Universidad incompleta"
+                  - option "Licenciado"
+                  - option "Posgrado"
+                  - option "Título de Ciclo Formativo de Grado Medio"
+                  - option "Título de Ciclo Formativo de Grado Superior"
+                  - option "Otros"
+                  - option "ESO"
+            - group
+            - group [ref=f19e767]:
+              - generic [ref=f19e768]:
+                - generic [ref=f19e769]: ¿Qué especialidad te interesa?*
+                - combobox "¿Qué especialidad te interesa?*" [ref=f19e771] [cursor=pointer]:
+                  - option "Selecciona" [disabled] [selected]
+                  - option "Diseño de Moda"
+                  - option "Diseño Gráfico"
+                  - option "Diseño de Interiores"
+                  - option "Diseño de Producto"
+                  - option "Diseño Audiovisual"
+            - group
+            - group
+            - group
+            - group
+            - group
+            - group
+            - group [ref=f19e772]:
+              - generic [ref=f19e773]:
+                - generic [ref=f19e774]: Al pulsar en "Enviar" aceptas nuestra Política de Privacidad para tratar tus datos con la finalidad de gestionar las consultas realizadas.
+                - list [ref=f19e779]:
+                  - listitem [ref=f19e780]:
+                    - generic [ref=f19e781] [cursor=pointer]:
+                      - checkbox "Acepto recibir comunicaciones de ESDI por correo electrónico y WhatsApp relacionadas con mi solicitud de información, programas y actividades." [ref=f19e782]
+                      - generic [ref=f19e783]: Acepto recibir comunicaciones de ESDI por correo electrónico y WhatsApp relacionadas con mi solicitud de información, programas y actividades.
+                - list [ref=f19e788]:
+                  - listitem [ref=f19e789]:
+                    - generic [ref=f19e790] [cursor=pointer]:
+                      - checkbox "He leído y acepto la Política de privacidad.*" [ref=f19e791]
+                      - generic [ref=f19e792]:
+                        - paragraph [ref=f19e793]:
+                          - text: He leído y acepto la
+                          - link "Política de privacidad." [ref=f19e794]:
+                            - /url: https://esdi.es/politica-de-privacidad/
+                        - text: "*"
+            - button "Enviar" [ref=f19e797] [cursor=pointer]
+          - generic [ref=f19e798]:
+            - paragraph [ref=f19e800]: ¿Tienes alguna duda? Puedes enviar el formulario o contactarnos a través de WhatsApp, email o por teléfono.
+            - link "(+34) 689 18 68 18" [ref=f19e802] [cursor=pointer]:
+              - /url: tel:(+34) 689 18 68 18
+            - link "abarrachina@esdi.edu.es" [ref=f19e804] [cursor=pointer]:
+              - /url: mailto:abarrachina@esdi.edu.es
+            - button "Haz clic para aceptar cookies de marketing y permitir este contenido" [ref=f19e808]
+    - contentinfo [ref=f19e809]:
+      - img "ESDI Escola Superior de Disseny" [ref=f19e811]
+      - generic [ref=f19e812]:
+        - navigation "Footer Menu" [ref=f19e814]:
+          - list [ref=f19e816]:
+            - listitem [ref=f19e817]:
+              - link "Campus virtual" [ref=f19e818] [cursor=pointer]:
+                - /url: https://esdi.classlife.education
+            - listitem [ref=f19e819]:
+              - link "Plataforma Alumni" [ref=f19e820] [cursor=pointer]:
+                - /url: http://alumni.esdi.es
+            - listitem [ref=f19e821]:
+              - link "Becas y ayudas" [ref=f19e822] [cursor=pointer]:
+                - /url: https://esdi.es/becas-ayudas/
+            - listitem [ref=f19e823]:
+              - link "Trabaja en ESDI" [ref=f19e824] [cursor=pointer]:
+                - /url: https://esdi.es/trabaja-en-esdi/
+            - listitem [ref=f19e825]:
+              - link "Media kit" [ref=f19e826] [cursor=pointer]:
+                - /url: https://esdi.es/media-kit/
+        - paragraph [ref=f19e828]:
+          - text: ESDI Sabadell (sede) Marquès de Comillas, 81–83 08202 Sabadell
+          - link "+34 93 727 48 19" [ref=f19e829] [cursor=pointer]:
+            - /url: tel:+34937274819
+          - text: 8.15 – 21.00 h
+        - paragraph [ref=f19e831]:
+          - text: ESDI Barcelona Diputació, 337 08009 Barcelona
+          - link "+34 93 416 00 00" [ref=f19e832] [cursor=pointer]:
+            - /url: tel:+34934160000
+          - text: 8.30 – 21.00 h
+        - navigation "Footer Menu Social" [ref=f19e834]:
+          - list [ref=f19e836]:
+            - listitem [ref=f19e837]:
+              - link "Instagram" [ref=f19e838] [cursor=pointer]:
+                - /url: https://www.instagram.com/esdi.es/
+            - listitem [ref=f19e839]:
+              - link "LinkedIn" [ref=f19e840] [cursor=pointer]:
+                - /url: https://www.linkedin.com/school/escola-superior-de-disseny-esdi/
+            - listitem [ref=f19e841]:
+              - link "YouTube" [ref=f19e842] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/ESDisseny
+            - listitem [ref=f19e843]:
+              - link "TikTok" [ref=f19e844] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@esdi.es
+            - listitem [ref=f19e845]:
+              - link "Threads" [ref=f19e846] [cursor=pointer]:
+                - /url: https://www.threads.com/@esdi.es
+      - img "ESDI Escola Superior de Disseny" [ref=f19e848]
+      - generic [ref=f19e849]:
+        - navigation "Footer Legal" [ref=f19e850]:
+          - list [ref=f19e852]:
+            - listitem [ref=f19e853]:
+              - link "Aviso legal" [ref=f19e854] [cursor=pointer]:
+                - /url: https://esdi.es/aviso-legal/
+            - listitem [ref=f19e855]:
+              - link "Política de privacidad" [ref=f19e856] [cursor=pointer]:
+                - /url: https://esdi.es/politica-de-privacidad/
+            - listitem [ref=f19e857]:
+              - link "Política de cookies" [ref=f19e858] [cursor=pointer]:
+                - /url: https://esdi.es/politica-de-cookies/
+            - listitem [ref=f19e859]:
+              - link "Buzón de sugerencias" [ref=f19e860] [cursor=pointer]:
+                - /url: https://esdi.es/buzon-de-sugerencias/
+        - paragraph [ref=f19e862]: © 2026 ESDI Escola Superior de Disseny
+  - button "Gestionar consentimiento" [ref=f19e863] [cursor=pointer]

@@ -1,0 +1,522 @@
+viewport {1440: (1440, 6022, 1425), 1024: (1024, 5022, 1009), 768: (768, 5458, 753), 390: (390, 4869, 375)}
+
+== TOKENS (px) ==
+--text-13_16px         1440:13.9792px | 1024:13.0931px | 768:13.008px | 390:13.008px
+--text-14px            1440:10px | 1024:10px | 768:10px | 390:10px
+--text-open-14px       1440:13.408px | 1024:12px | 768:12px | 390:12px
+--text-22px            1440:26.664px | 1024:23.7728px | 768:22px | 390:22px
+--text-open-22px       1440:17.88px | 1024:14px | 768:14px | 390:14px
+--text-35px            1440:30.8352px | 1024:27.2243px | 768:25.008px | 390:25.008px
+--text-55px            1440:40.0032px | 1024:28.4467px | 768:21.335px | 390:21.328px
+--text-58px            1440:38px | 1024:30px | 768:30px | 390:30px
+--text-95px            1440:55px | 1024:50px | 768:50px | 390:50px
+--text-100px           1440:55px | 1024:50px | 768:50px | 390:50px
+--text-150px           1440:100px | 1024:100px | 768:100px | 390:100px
+--text-300px           1440:218.189px | 1024:155.156px | 768:116.368px | 390:116.368px
+--text-mobile-14px     1440:23.184px | 1024:23.184px | 768:23.184px | 390:11.794px
+--text-mobile-18px     1440:21.008px | 1024:21.008px | 768:21.0029px | 390:18.5825px
+--text-mobile-22px     1440:36.528px | 1024:36.528px | 768:36.528px | 390:18.5908px
+--text-mobile-25px     1440:41.504px | 1024:41.504px | 768:41.504px | 390:21.1245px
+--text-mobile-30px     1440:53.376px | 1024:53.376px | 768:53.376px | 390:27.2089px
+--text-mobile-33px     1440:59.472px | 1024:59.472px | 768:59.472px | 390:30.3699px
+--text-mobile-40px     1440:69.856px | 1024:69.856px | 768:69.856px | 390:36.0296px
+--text-mobile-67px     1440:111.232px | 1024:111.232px | 768:111.232px | 390:56.6158px
+--tracking-150px       1440:-4.9328px | 1024:-5.81888px | 768:-6px | 390:-6px
+
+== ELEMENTS ==
+
+## body
+  1440: rect={'x': 0, 'y': 0, 'w': 1424.8, 'h': 6022.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=82px; background-color=rgb(255, 255, 255)
+  1024: rect={'x': 0, 'y': 0, 'w': 1008.8, 'h': 5021.5} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=82px; background-color=rgb(255, 255, 255)
+  768: rect={'x': 0, 'y': 0, 'w': 752.8, 'h': 5458.6} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=82px; background-color=rgb(255, 255, 255)
+  390: rect={'x': 0, 'y': 0, 'w': 375.2, 'h': 4868.6} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=82px; background-color=rgb(255, 255, 255)
+
+## header
+  1440: rect={'x': 0, 'y': 0, 'w': 1424.8, 'h': 56} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px; padding-right=30px; padding-bottom=8px; padding-left=30px; background-color=rgb(255, 255, 255)
+  1024: rect={'x': 0, 'y': 0, 'w': 1008.8, 'h': 51.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px; padding-right=30px; padding-bottom=8px; padding-left=30px; background-color=rgb(255, 255, 255)
+  768: rect={'x': 0, 'y': 0, 'w': 752.8, 'h': 49} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px; padding-right=30px; padding-bottom=8px; padding-left=30px; background-color=rgb(255, 255, 255)
+  390: rect={'x': 0, 'y': 0, 'w': 375.2, 'h': 47.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px; padding-right=16px; padding-bottom=8px; padding-left=16px; background-color=rgb(255, 255, 255)
+
+## logo
+  1440: rect={'x': 30, 'y': 12.1, 'w': 75, 'h': 31.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+  1024: rect={'x': 30, 'y': 9.9, 'w': 75, 'h': 31.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+  768: rect={'x': 30, 'y': 8.6, 'w': 75, 'h': 31.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+  390: rect={'x': 16, 'y': 8, 'w': 75, 'h': 31.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+
+## menuBtn
+  1440: rect={'x': 1252.6, 'y': 8, 'w': 66.7, 'h': 40} font=Helvetica, sans-serif/26.664px/300/lh 39.996px/ls normal/none color=rgb(0, 0, 0)
+  1024: rect={'x': 847.6, 'y': 8, 'w': 59.5, 'h': 35.7} font=Helvetica, sans-serif/23.7728px/300/lh 35.6592px/ls normal/none color=rgb(0, 0, 0)
+  768: rect={'x': 598.4, 'y': 8, 'w': 55, 'h': 33} font=Helvetica, sans-serif/22px/300/lh 33px/ls normal/none color=rgb(0, 0, 0)
+  390: rect={'x': 247.9, 'y': 9.9, 'w': 46.5, 'h': 27.9} font=Helvetica, sans-serif/18.5908px/300/lh 27.8863px/ls normal/none color=rgb(0, 0, 0)
+
+## langBtn
+  1440: rect={'x': 1359.2, 'y': 8, 'w': 35.6, 'h': 40} font=Helvetica, sans-serif/26.664px/300/lh 39.996px/ls normal/uppercase color=rgb(0, 0, 0)
+  1024: rect={'x': 947.1, 'y': 8, 'w': 31.7, 'h': 35.7} font=Helvetica, sans-serif/23.7728px/300/lh 35.6592px/ls normal/uppercase color=rgb(0, 0, 0)
+  768: rect={'x': 693.5, 'y': 8, 'w': 29.4, 'h': 33} font=Helvetica, sans-serif/22px/300/lh 33px/ls normal/uppercase color=rgb(0, 0, 0)
+  390: rect={'x': 334.4, 'y': 9.9, 'w': 24.8, 'h': 27.9} font=Helvetica, sans-serif/18.5908px/300/lh 27.8863px/ls normal/uppercase color=rgb(0, 0, 0)
+
+## heroSection
+  1440: rect={'x': 0, 'y': 82, 'w': 1424.8, 'h': 767.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px
+  1024: rect={'x': 0, 'y': 82, 'w': 1008.8, 'h': 533.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px
+  768: rect={'x': 0, 'y': 82, 'w': 752.8, 'h': 389.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px
+  390: rect={'x': 0, 'y': 82, 'w': 375.2, 'h': 193.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=16px; padding-left=16px
+
+## heroVideo
+  1440: rect={'x': 30, 'y': 82, 'w': 1364.8, 'h': 767.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+  1024: rect={'x': 30, 'y': 82, 'w': 948.8, 'h': 533.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+  768: rect={'x': 30, 'y': 82, 'w': 692.8, 'h': 389.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+  390: rect={'x': 16, 'y': 82, 'w': 343.2, 'h': 193.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+
+## h1Section
+  1440: rect={'x': 0, 'y': 849.7, 'w': 1424.8, 'h': 382.2} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=20px; padding-right=30px; padding-left=30px; margin-bottom=90px
+  1024: rect={'x': 0, 'y': 615.7, 'w': 1008.8, 'h': 261.6} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=4px; padding-right=30px; padding-left=30px; margin-bottom=90px
+  768: rect={'x': 0, 'y': 471.7, 'w': 752.8, 'h': 197.2} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=4px; padding-right=30px; padding-left=30px; margin-bottom=90px
+  390: rect={'x': 0, 'y': 275.1, 'w': 375.2, 'h': 141} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=16px; padding-left=16px; margin-bottom=45px
+
+## h1
+  1440: rect={'x': 19.2, 'y': 869.7, 'w': 1375.6, 'h': 362.2} font=FramerSans, sans-serif, seri/218.189px/700/lh 181.097px/ls -4.9328px/uppercase color=rgb(0, 0, 0)
+  1024: rect={'x': 22.3, 'y': 619.7, 'w': 956.5, 'h': 257.6} font=FramerSans, sans-serif, seri/155.156px/700/lh 128.78px/ls -5.81888px/uppercase color=rgb(0, 0, 0)
+  768: rect={'x': 24.3, 'y': 475.7, 'w': 698.5, 'h': 193.2} font=FramerSans, sans-serif, seri/116.368px/700/lh 96.5854px/ls -6px/uppercase color=rgb(0, 0, 0)
+  390: rect={'x': 16, 'y': 275.1, 'w': 343.2, 'h': 141} font=FramerSans, sans-serif, seri/56.6158px/700/lh 46.9911px/ls normal/uppercase color=rgb(0, 0, 0)
+
+## introSection
+  1440: rect={'x': 0, 'y': 1321.9, 'w': 1424.8, 'h': 118.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  1024: rect={'x': 0, 'y': 967.3, 'w': 1008.8, 'h': 84.5} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  768: rect={'x': 0, 'y': 758.9, 'w': 752.8, 'h': 63.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  390: rect={'x': 0, 'y': 461, 'w': 375.2, 'h': 125.5} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=16px; padding-left=16px; margin-bottom=45px
+
+## introText
+  1440: rect={'x': 30, 'y': 1321.9, 'w': 1364.8, 'h': 118.8} font=Helvetica, sans-serif, serif/40.0032px/300/lh 39.6032px/ls normal/none color=rgb(0, 0, 0)
+  1024: rect={'x': 30, 'y': 967.3, 'w': 948.8, 'h': 84.5} font=Helvetica, sans-serif, serif/28.4467px/300/lh 28.1623px/ls normal/none color=rgb(0, 0, 0)
+  768: rect={'x': 30, 'y': 758.9, 'w': 692.8, 'h': 63.4} font=Helvetica, sans-serif, serif/21.335px/300/lh 21.1217px/ls normal/none color=rgb(0, 0, 0)
+  390: rect={'x': 16, 'y': 461, 'w': 343.2, 'h': 125.5} font=Helvetica, sans-serif, serif/21.1245px/300/lh 20.9133px/ls normal/none color=rgb(0, 0, 0)
+
+## introLink
+  1440: rect={'x': 30, 'y': 1318.7, 'w': 595.8, 'h': 44.8} font=Helvetica, sans-serif, serif/40.0032px/300/lh 39.6032px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 3px
+  1024: rect={'x': 30, 'y': 964.9, 'w': 423.6, 'h': 32} font=Helvetica, sans-serif, serif/28.4467px/300/lh 28.1623px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 3px
+  768: rect={'x': 30, 'y': 757.3, 'w': 317.7, 'h': 24} font=Helvetica, sans-serif, serif/21.335px/300/lh 21.1217px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 3px
+  390: rect={'x': 16, 'y': 459.4, 'w': 314.6, 'h': 24} font=Helvetica, sans-serif, serif/21.1245px/300/lh 20.9133px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 3px
+
+## ofertaSection
+  1440: rect={'x': 0, 'y': 1530.7, 'w': 1424.8, 'h': 763.5} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  1024: rect={'x': 0, 'y': 1141.7, 'w': 1008.8, 'h': 631.2} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  768: rect={'x': 0, 'y': 912.3, 'w': 752.8, 'h': 722.6} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  390: rect={'x': 0, 'y': 631.5, 'w': 375.2, 'h': 509.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=16px; padding-left=16px; margin-bottom=45px
+
+## ofertaH2
+  1440: rect={'x': 19.2, 'y': 1530.7, 'w': 1375.6, 'h': 386.2} font=FramerSans, sans-serif, seri/218.189px/700/lh 181.097px/ls -4.36378px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+  1024: rect={'x': 22.3, 'y': 1141.7, 'w': 956.5, 'h': 281.6} font=FramerSans, sans-serif, seri/155.156px/700/lh 128.78px/ls -3.10313px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+  768: rect={'x': 24.3, 'y': 912.3, 'w': 698.5, 'h': 217.2} font=FramerSans, sans-serif, seri/116.368px/700/lh 96.5854px/ls -2.32736px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+  390: rect={'x': 13.1, 'y': 631.5, 'w': 346.1, 'h': 118} font=FramerSans, sans-serif, seri/56.6158px/700/lh 46.9911px/ls -1.69847px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+
+## ofertaGrid
+  1440: rect={'x': 30, 'y': 1928.9, 'w': 1364.8, 'h': 365.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        margin-top=12px; grid-template-columns=341.2px 341.2px 341.2px 341.2px
+  1024: rect={'x': 30, 'y': 1435.3, 'w': 948.8, 'h': 337.6} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        margin-top=12px; grid-template-columns=237.2px 237.2px 237.2px 237.2px
+  768: rect={'x': 30, 'y': 1141.4, 'w': 692.8, 'h': 493.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        margin-top=12px; grid-template-columns=346.4px 346.4px
+  390: rect={'x': 16, 'y': 761.5, 'w': 343.2, 'h': 379.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        margin-top=12px; grid-template-columns=171.6px 171.6px
+
+## ofertaCard1
+  1440: rect={'x': 30, 'y': 1928.9, 'w': 341.2, 'h': 365.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0); border-right=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0); border-left=0.8px solid rgb(0, 0, 0); background-color=rgb(226, 228, 231); transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-
+  1024: rect={'x': 30, 'y': 1435.3, 'w': 237.2, 'h': 337.6} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0); border-right=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0); border-left=0.8px solid rgb(0, 0, 0); background-color=rgb(226, 228, 231); transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-
+  768: rect={'x': 30, 'y': 1141.4, 'w': 346.4, 'h': 246.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0); border-right=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0); border-left=0.8px solid rgb(0, 0, 0); background-color=rgb(226, 228, 231); transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-
+  390: rect={'x': 16, 'y': 761.5, 'w': 171.6, 'h': 189.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0); border-right=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0); border-left=0.8px solid rgb(0, 0, 0); background-color=rgb(226, 228, 231); transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-
+
+## ofertaCard1a
+  1440: rect={'x': 30.8, 'y': 1929.7, 'w': 339.6, 'h': 363.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=16px; padding-right=16px; padding-bottom=16px; padding-left=16px
+  1024: rect={'x': 30.8, 'y': 1436.1, 'w': 235.6, 'h': 336} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=16px; padding-right=16px; padding-bottom=16px; padding-left=16px
+  768: rect={'x': 30.8, 'y': 1142.2, 'w': 344.8, 'h': 245.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=16px; padding-right=16px; padding-bottom=16px; padding-left=16px
+  390: rect={'x': 16.8, 'y': 762.3, 'w': 170, 'h': 188.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px; padding-right=8px; padding-bottom=8px; padding-left=8px
+
+## ofertaCard2
+  1440: rect={'x': 371.2, 'y': 1928.9, 'w': 341.2, 'h': 365.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0); border-right=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0); background-color=rgb(226, 228, 231); transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-
+  1024: rect={'x': 267.2, 'y': 1435.3, 'w': 237.2, 'h': 337.6} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0); border-right=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0); background-color=rgb(226, 228, 231); transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-
+  768: rect={'x': 376.4, 'y': 1141.4, 'w': 346.4, 'h': 246.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0); border-right=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0); background-color=rgb(226, 228, 231); transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-
+  390: rect={'x': 187.6, 'y': 761.5, 'w': 171.6, 'h': 189.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0); border-right=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0); background-color=rgb(226, 228, 231); transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-
+
+## ofertaCardH3
+  1440: rect={'x': 46.8, 'y': 1945.7, 'w': 307.6, 'h': 95.7} font=FramerSans, sans-serif, seri/55px/700/lh 47.85px/ls -0.55px/uppercase color=rgb(0, 0, 0)
+  1024: rect={'x': 46.8, 'y': 1452.1, 'w': 203.6, 'h': 87} font=FramerSans, sans-serif, seri/50px/700/lh 43.5px/ls -0.5px/uppercase color=rgb(0, 0, 0)
+  768: rect={'x': 46.8, 'y': 1158.2, 'w': 312.8, 'h': 43.5} font=FramerSans, sans-serif, seri/50px/700/lh 43.5px/ls -0.5px/uppercase color=rgb(0, 0, 0)
+  390: rect={'x': 24.8, 'y': 770.3, 'w': 154, 'h': 62.7} font=FramerSans, sans-serif, seri/36.0296px/700/lh 31.3458px/ls -0.540444px/uppercase color=rgb(0, 0, 0)
+
+## ofertaCardP
+  1440: rect={'x': 46.8, 'y': 2160.7, 'w': 307.6, 'h': 116.8} font=Helvetica, sans-serif, serif/26.664px/300/lh 30.9302px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=24px; margin-top=119.275px
+  1024: rect={'x': 46.8, 'y': 1621.8, 'w': 203.6, 'h': 134.3} font=Helvetica, sans-serif, serif/23.7728px/300/lh 27.5764px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=24px; margin-top=82.725px
+  768: rect={'x': 46.8, 'y': 1270.8, 'w': 312.8, 'h': 100.6} font=Helvetica, sans-serif, serif/22px/300/lh 25.52px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=24px; margin-top=69.025px
+  390: rect={'x': 0, 'y': 0, 'w': 0, 'h': 0} font=Helvetica, sans-serif, serif/18.5825px/300/lh 19.5116px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=24px; margin-top=auto
+
+## awardsSection
+  1440: rect={'x': 0, 'y': 2384.3, 'w': 1424.8, 'h': 878.5} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  1024: rect={'x': 0, 'y': 1862.9, 'w': 1008.8, 'h': 791.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  768: rect={'x': 0, 'y': 1724.8, 'w': 752.8, 'h': 738.5} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  390: rect={'x': 0, 'y': 1185.9, 'w': 375.2, 'h': 865.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=16px; padding-left=16px; margin-bottom=45px
+
+## awardsH2
+  1440: rect={'x': 19.2, 'y': 2384.3, 'w': 1375.6, 'h': 181.1} font=FramerSans, sans-serif, seri/218.189px/700/lh 181.097px/ls -4.9328px/uppercase color=rgb(0, 0, 0)
+        margin-bottom=35px
+  1024: rect={'x': 22.3, 'y': 1862.9, 'w': 956.5, 'h': 128.8} font=FramerSans, sans-serif, seri/155.156px/700/lh 128.78px/ls -5.81888px/uppercase color=rgb(0, 0, 0)
+        margin-bottom=35px
+  768: rect={'x': 24.3, 'y': 1724.8, 'w': 698.5, 'h': 96.6} font=FramerSans, sans-serif, seri/116.368px/700/lh 96.5854px/ls -6px/uppercase color=rgb(0, 0, 0)
+        margin-bottom=35px
+  390: rect={'x': 13.1, 'y': 1185.9, 'w': 346.1, 'h': 47} font=FramerSans, sans-serif, seri/56.6158px/700/lh 46.9911px/ls -1.69847px/uppercase color=rgb(0, 0, 0)
+        margin-bottom=35px
+
+## awardsBorder
+  1440: rect={'x': 30, 'y': 2600.4, 'w': 1364.8, 'h': 662.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0)
+  1024: rect={'x': 30, 'y': 2026.7, 'w': 948.8, 'h': 628} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0)
+  768: rect={'x': 30, 'y': 1856.4, 'w': 692.8, 'h': 606.9} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0)
+  390: rect={'x': 16, 'y': 1267.8, 'w': 343.2, 'h': 783.9} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-top=0.8px solid rgb(0, 0, 0)
+
+## awardsLabel
+  1440: rect={'x': 30, 'y': 2601.2, 'w': 674.4, 'h': 661.6} font=Helvetica, sans-serif, serif/26.664px/300/lh 26.3974px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=12px
+  1024: rect={'x': 30, 'y': 2027.5, 'w': 466.4, 'h': 627.3} font=Helvetica, sans-serif, serif/23.7728px/300/lh 23.5351px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=12px
+  768: rect={'x': 30, 'y': 1857.2, 'w': 338.4, 'h': 606.1} font=Helvetica, sans-serif, serif/22px/300/lh 21.78px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=12px
+  390: rect={'x': 16, 'y': 1268.7, 'w': 167.6, 'h': 783} font=Helvetica, sans-serif, serif/18.5825px/300/lh 19.5116px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=16px
+
+## awardsLi
+  1440: rect={'x': 720.4, 'y': 2601.2, 'w': 674.4, 'h': 55.2} font=Helvetica, sans-serif, serif/26.664px/300/lh 26.3974px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=14px; padding-bottom=14px; border-bottom=0.8px solid rgb(0, 0, 0)
+  1024: rect={'x': 512.4, 'y': 2027.5, 'w': 466.4, 'h': 52.3} font=Helvetica, sans-serif, serif/23.7728px/300/lh 23.5351px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=14px; padding-bottom=14px; border-bottom=0.8px solid rgb(0, 0, 0)
+  768: rect={'x': 384.4, 'y': 1857.2, 'w': 338.4, 'h': 50.6} font=Helvetica, sans-serif, serif/22px/300/lh 21.78px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=14px; padding-bottom=14px; border-bottom=0.8px solid rgb(0, 0, 0)
+  390: rect={'x': 191.6, 'y': 1268.7, 'w': 167.6, 'h': 71.8} font=Helvetica, sans-serif, serif/18.5825px/300/lh 19.5116px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=16px; padding-bottom=16px; border-bottom=0.8px solid rgb(0, 0, 0)
+
+## projectsSection
+  1440: rect={'x': 0, 'y': 3352.8, 'w': 1424.8, 'h': 494.6} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  1024: rect={'x': 0, 'y': 2744.7, 'w': 1008.8, 'h': 343.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  768: rect={'x': 0, 'y': 2553.3, 'w': 752.8, 'h': 1004.2} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  390: rect={'x': 0, 'y': 2096.7, 'w': 375.2, 'h': 497.5} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=16px; padding-left=16px; margin-bottom=45px
+
+## projectsGrid
+  1440: rect={'x': 30, 'y': 3352.8, 'w': 1364.8, 'h': 494.6} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        grid-template-columns=341.2px 341.2px 341.2px 341.2px
+  1024: rect={'x': 30, 'y': 2744.7, 'w': 948.8, 'h': 343.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        grid-template-columns=237.2px 237.2px 237.2px 237.2px
+  768: rect={'x': 30, 'y': 2553.3, 'w': 692.8, 'h': 1004.2} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        grid-template-columns=346.4px 346.4px
+  390: rect={'x': 16, 'y': 2096.7, 'w': 343.2, 'h': 497.5} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        grid-template-columns=171.6px 171.6px
+
+## project1
+  1440: rect={'x': 30, 'y': 3352.8, 'w': 341.2, 'h': 247.3} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+  1024: rect={'x': 30, 'y': 2744.7, 'w': 237.2, 'h': 171.9} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+  768: rect={'x': 30, 'y': 2553.3, 'w': 346.4, 'h': 251} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+  390: rect={'x': 16, 'y': 2096.7, 'w': 171.6, 'h': 124.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+
+## project3
+  1440: rect={'x': 371.2, 'y': 3352.8, 'w': 341.2, 'h': 494.6} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+  1024: rect={'x': 267.2, 'y': 2744.7, 'w': 237.2, 'h': 343.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+  768: rect={'x': 376.4, 'y': 2553.3, 'w': 346.4, 'h': 502.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+  390: rect={'x': 187.6, 'y': 2096.7, 'w': 171.6, 'h': 248.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+
+## project4
+  1440: rect={'x': 712.4, 'y': 3352.8, 'w': 682.4, 'h': 494.6} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+  1024: rect={'x': 504.4, 'y': 2744.7, 'w': 474.4, 'h': 343.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+  768: rect={'x': 30, 'y': 3055.4, 'w': 692.8, 'h': 502.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+  390: rect={'x': 16, 'y': 2345.4, 'w': 343.2, 'h': 248.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        transition=color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bez
+
+## projectCaption
+  1440: rect={'x': 38, 'y': 3360.8, 'w': 293.7, 'h': 76.8} font=Helvetica, sans-serif, serif/26.664px/300/lh 26.3974px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=12px; padding-right=12px; padding-bottom=12px; padding-left=12px; transition=0.3s
+  1024: rect={'x': 38, 'y': 2752.7, 'w': 229.2, 'h': 97} font=Helvetica, sans-serif, serif/24.5758px/300/lh 24.33px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=12px; padding-right=12px; padding-bottom=12px; padding-left=12px; transition=0.3s
+  768: rect={'x': 38, 'y': 2561.3, 'w': 255.3, 'h': 69.3} font=Helvetica, sans-serif, serif/22.8675px/300/lh 22.6388px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=12px; padding-right=12px; padding-bottom=12px; padding-left=12px; transition=0.3s
+  390: rect={'x': 22.4, 'y': 2103.1, 'w': 165.2, 'h': 73.8} font=Helvetica, sans-serif, serif/17.8558px/300/lh 17.6773px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=10.3758px; padding-right=10.3758px; padding-bottom=10.3758px; padding-left=10.3758px; transition=0.3s
+
+## agendaSection
+  1440: rect={'x': 0, 'y': 3937.3, 'w': 1424.8, 'h': 647.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  1024: rect={'x': 0, 'y': 3178.5, 'w': 1008.8, 'h': 577.9} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  768: rect={'x': 0, 'y': 3647.5, 'w': 752.8, 'h': 545.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-bottom=90px
+  390: rect={'x': 0, 'y': 2639.2, 'w': 375.2, 'h': 838.9} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=16px; padding-left=16px; margin-bottom=45px
+
+## agendaH2
+  1440: rect={'x': 19.2, 'y': 3937.3, 'w': 1375.6, 'h': 205.1} font=FramerSans, sans-serif, seri/218.189px/700/lh 181.097px/ls -4.36378px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+  1024: rect={'x': 22.3, 'y': 3178.5, 'w': 956.5, 'h': 152.8} font=FramerSans, sans-serif, seri/155.156px/700/lh 128.78px/ls -3.10313px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+  768: rect={'x': 24.3, 'y': 3647.5, 'w': 698.5, 'h': 120.6} font=FramerSans, sans-serif, seri/116.368px/700/lh 96.5854px/ls -2.32736px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+  390: rect={'x': 13.1, 'y': 2639.2, 'w': 346.1, 'h': 71} font=FramerSans, sans-serif/56.6158px/700/lh 46.9911px/ls -1.69847px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+
+## agendaTable
+  1440: rect={'x': 30, 'y': 4143.2, 'w': 1364.8, 'h': 441.9} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+  1024: rect={'x': 30, 'y': 3332.1, 'w': 948.8, 'h': 424.3} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+  768: rect={'x': 30, 'y': 3768.9, 'w': 692.8, 'h': 424.3} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+  390: rect={'x': 16, 'y': 2710.9, 'w': 343.2, 'h': 767.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+
+## agendaRow
+  1440: rect={'x': 30, 'y': 4143.2, 'w': 1364.8, 'h': 73.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-bottom=0.8px solid rgb(0, 0, 0)
+  1024: rect={'x': 30, 'y': 3332.1, 'w': 948.8, 'h': 68.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-bottom=0.8px solid rgb(0, 0, 0)
+  768: rect={'x': 30, 'y': 3768.9, 'w': 692.8, 'h': 68.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-bottom=0.8px solid rgb(0, 0, 0)
+  390: rect={'x': 16, 'y': 2710.9, 'w': 343.2, 'h': 121.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        border-bottom=0.8px solid rgb(0, 0, 0)
+
+## agendaDate
+  1440: rect={'x': 30, 'y': 4143.2, 'w': 341.2, 'h': 73.4} font=Helvetica, sans-serif, serif/17.88px/300/lh 17.7012px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=14px; padding-bottom=20px
+  1024: rect={'x': 30, 'y': 3332.1, 'w': 237.2, 'h': 68.1} font=Helvetica, sans-serif, serif/14px/300/lh 13.86px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=14px; padding-bottom=20px
+  768: rect={'x': 30, 'y': 3768.9, 'w': 173.2, 'h': 68.1} font=Helvetica, sans-serif, serif/14px/300/lh 13.86px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=14px; padding-bottom=20px
+  390: rect={'x': 16, 'y': 2710.9, 'w': 343.2, 'h': 34.9} font=Helvetica, sans-serif, serif/21.1245px/300/lh 20.9133px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=14px
+
+## agendaCat
+  1440: rect={'x': 371.2, 'y': 4159.2, 'w': 682.4, 'h': 19.3} font=Helvetica, sans-serif, serif/13.408px/300/lh 13.2739px/ls normal/none color=rgb(0, 0, 0)
+        padding-bottom=6px
+  1024: rect={'x': 267.2, 'y': 3348.1, 'w': 474.4, 'h': 17.9} font=Helvetica, sans-serif, serif/12px/300/lh 11.88px/ls normal/none color=rgb(0, 0, 0)
+        padding-bottom=6px
+  768: rect={'x': 203.2, 'y': 3784.9, 'w': 346.4, 'h': 17.9} font=Helvetica, sans-serif, serif/12px/300/lh 11.88px/ls normal/none color=rgb(0, 0, 0)
+        padding-bottom=6px
+  390: rect={'x': 0, 'y': 0, 'w': 0, 'h': 0} font=Helvetica, sans-serif, serif/11.794px/300/lh 11.676px/ls normal/none color=rgb(0, 0, 0)
+        padding-bottom=6px
+
+## agendaTitle
+  1440: rect={'x': 371.2, 'y': 4178.5, 'w': 682.4, 'h': 17.7} font=Helvetica, sans-serif, serif/17.88px/300/lh 17.7012px/ls normal/uppercase color=rgb(0, 0, 0)
+  1024: rect={'x': 267.2, 'y': 3366, 'w': 474.4, 'h': 13.9} font=Helvetica, sans-serif, serif/14px/300/lh 13.86px/ls normal/uppercase color=rgb(0, 0, 0)
+  768: rect={'x': 203.2, 'y': 3802.7, 'w': 346.4, 'h': 13.9} font=Helvetica, sans-serif, serif/14px/300/lh 13.86px/ls normal/uppercase color=rgb(0, 0, 0)
+  390: rect={'x': 16, 'y': 2759.9, 'w': 343.2, 'h': 19.5} font=Helvetica, sans-serif, serif/18.5825px/300/lh 19.5116px/ls normal/uppercase color=rgb(0, 0, 0)
+
+## agendaLink
+  1440: rect={'x': 1053.6, 'y': 4173.3, 'w': 100.6, 'h': 15.2} font=Helvetica, sans-serif, serif/13.408px/300/lh 13.2739px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 2px
+  1024: rect={'x': 741.6, 'y': 3360.4, 'w': 90.1, 'h': 13.6} font=Helvetica, sans-serif, serif/12px/300/lh 11.88px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 2px
+  768: rect={'x': 549.6, 'y': 3797.1, 'w': 90.1, 'h': 13.6} font=Helvetica, sans-serif, serif/12px/300/lh 11.88px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 2px
+  390: rect={'x': 16, 'y': 2794.2, 'w': 139.4, 'h': 20.8} font=Helvetica, sans-serif, serif/18.5825px/300/lh 19.5116px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 2px
+
+## newsSection
+  1440: rect={'x': 0, 'y': 4675.1, 'w': 1424.8, 'h': 667.2} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=32px; padding-right=30px; padding-left=30px; margin-bottom=90px
+  1024: rect={'x': 0, 'y': 3846.4, 'w': 1008.8, 'h': 581.9} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=32px; padding-right=30px; padding-left=30px; margin-bottom=90px
+  768: rect={'x': 0, 'y': 4283.1, 'w': 752.8, 'h': 519.5} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=32px; padding-right=30px; padding-left=30px; margin-bottom=90px
+  390: rect={'x': 0, 'y': 3523, 'w': 375.2, 'h': 734.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=32px; padding-right=16px; padding-left=16px; margin-bottom=45px
+
+## newsH2
+  1440: rect={'x': 19.2, 'y': 4707.1, 'w': 671.4, 'h': 205.1} font=FramerSans, sans-serif, seri/218.189px/700/lh 181.097px/ls -4.36378px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+  1024: rect={'x': 22.3, 'y': 3878.4, 'w': 477.4, 'h': 152.8} font=FramerSans, sans-serif, seri/155.156px/700/lh 128.78px/ls -3.10313px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+  768: rect={'x': 24.3, 'y': 4315.1, 'w': 358.1, 'h': 120.6} font=FramerSans, sans-serif, seri/116.368px/700/lh 96.5854px/ls -2.32736px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+  390: rect={'x': 13.1, 'y': 3555, 'w': 169.7, 'h': 71} font=FramerSans, sans-serif, seri/56.6158px/700/lh 46.9911px/ls -1.69847px/uppercase color=rgb(0, 0, 0)
+        padding-bottom=24px
+
+## newsAll
+  1440: rect={'x': 1245.8, 'y': 4845.8, 'w': 149, 'h': 40.4} font=Helvetica, sans-serif, serif/40.0032px/300/lh 39.6032px/ls normal/none color=rgb(0, 0, 0)
+        margin-bottom=26px; border-bottom=0.8px solid rgba(0, 0, 0, 0)
+  1024: rect={'x': 872.9, 'y': 3976.2, 'w': 106, 'h': 29} font=Helvetica, sans-serif, serif/28.4467px/300/lh 28.1623px/ls normal/none color=rgb(0, 0, 0)
+        margin-bottom=26px; border-bottom=0.8px solid rgba(0, 0, 0, 0)
+  768: rect={'x': 643.4, 'y': 4387.8, 'w': 79.5, 'h': 21.9} font=Helvetica, sans-serif, serif/21.335px/300/lh 21.1217px/ls normal/none color=rgb(0, 0, 0)
+        margin-bottom=26px; border-bottom=0.8px solid rgba(0, 0, 0, 0)
+  390: rect={'x': 280.5, 'y': 3578.3, 'w': 78.7, 'h': 21.7} font=Helvetica, sans-serif, serif/21.1245px/300/lh 20.9133px/ls normal/none color=rgb(0, 0, 0)
+        margin-bottom=26px; border-bottom=0.8px solid rgba(0, 0, 0, 0)
+
+## newsGrid
+  1440: rect={'x': 30, 'y': 4912.1, 'w': 1364.8, 'h': 430.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        gap=14.4px; grid-template-columns=330.4px 330.4px 330.4px 330.4px
+  1024: rect={'x': 30, 'y': 4031.2, 'w': 948.8, 'h': 397.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        gap=10.24px; grid-template-columns=229.512px 229.525px 229.525px 229.525px
+  768: rect={'x': 30, 'y': 4435.7, 'w': 692.8, 'h': 366.9} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        gap=7.68px; grid-template-columns=167.438px 167.45px 167.438px 167.45px
+  390: rect={'x': 16, 'y': 3626, 'w': 343.2, 'h': 631.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        gap=10px; grid-template-columns=166.6px 166.6px
+
+## newsThumb
+  1440: rect={'x': 30, 'y': 4912.1, 'w': 330.4, 'h': 375.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        margin-bottom=55px
+  1024: rect={'x': 30, 'y': 4031.2, 'w': 229.5, 'h': 342.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        margin-bottom=55px
+  768: rect={'x': 30, 'y': 4435.7, 'w': 167.4, 'h': 311.9} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        margin-bottom=55px
+  390: rect={'x': 16, 'y': 3626, 'w': 166.6, 'h': 275.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        margin-bottom=25px
+
+## newsCat
+  1440: rect={'x': 30, 'y': 5159.6, 'w': 318.4, 'h': 13.3} font=Helvetica, sans-serif, serif/13.408px/300/lh 13.2739px/ls normal/none color=rgb(0, 0, 0)
+        margin-top=6px; margin-bottom=6px
+  1024: rect={'x': 30, 'y': 4207.4, 'w': 217.5, 'h': 11.9} font=Helvetica, sans-serif, serif/12px/300/lh 11.88px/ls normal/none color=rgb(0, 0, 0)
+        margin-top=6px; margin-bottom=6px
+  768: rect={'x': 30, 'y': 4568.1, 'w': 155.4, 'h': 11.9} font=Helvetica, sans-serif, serif/12px/300/lh 11.88px/ls normal/none color=rgb(0, 0, 0)
+        margin-top=6px; margin-bottom=6px
+  390: rect={'x': 16, 'y': 3757.7, 'w': 154.6, 'h': 11.7} font=Helvetica, sans-serif, serif/11.794px/300/lh 11.676px/ls normal/none color=rgb(0, 0, 0)
+        margin-top=6px; margin-bottom=6px
+
+## newsTitle
+  1440: rect={'x': 30, 'y': 5178.9, 'w': 318.4, 'h': 87.2} font=Helvetica, sans-serif, serif/26.664px/300/lh 26.3974px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px
+  1024: rect={'x': 30, 'y': 4225.2, 'w': 217.5, 'h': 102.2} font=Helvetica, sans-serif, serif/23.7728px/300/lh 23.5351px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px
+  768: rect={'x': 30, 'y': 4585.9, 'w': 155.4, 'h': 116.9} font=Helvetica, sans-serif, serif/22px/300/lh 21.78px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px
+  390: rect={'x': 16, 'y': 3775.4, 'w': 154.6, 'h': 86.1} font=Helvetica, sans-serif, serif/18.5825px/300/lh 19.5116px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px
+
+## footer
+  1440: rect={'x': 0, 'y': 5432.3, 'w': 1424.8, 'h': 590.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-top=24px
+  1024: rect={'x': 0, 'y': 4518.3, 'w': 1008.8, 'h': 503.2} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-top=24px
+  768: rect={'x': 0, 'y': 4892.7, 'w': 752.8, 'h': 566} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=30px; padding-left=30px; margin-top=24px
+  390: rect={'x': 0, 'y': 4302.1, 'w': 375.2, 'h': 566.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-right=16px; padding-left=16px; margin-top=24px
+
+## footerLogos
+  1440: rect={'x': 30, 'y': 5432.3, 'w': 1364.8, 'h': 71.2} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=16px; padding-bottom=16px; border-top=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0)
+  1024: rect={'x': 30, 'y': 4518.3, 'w': 948.8, 'h': 66.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=16px; padding-bottom=16px; border-top=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0)
+  768: rect={'x': 30, 'y': 4892.7, 'w': 692.8, 'h': 57.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=16px; padding-bottom=16px; border-top=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0)
+  390: rect={'x': 16, 'y': 4302.1, 'w': 343.2, 'h': 57.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=16px; padding-bottom=16px; border-top=0.8px solid rgb(0, 0, 0); border-bottom=0.8px solid rgb(0, 0, 0)
+
+## footerMenuBlock
+  1440: rect={'x': 30, 'y': 5503.5, 'w': 1364.8, 'h': 173.3} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=20px; padding-bottom=20px; gap=14.4px; grid-template-columns=158px 158px 158px 158px 158px 158px 158px 158px
+  1024: rect={'x': 30, 'y': 4584.9, 'w': 948.8, 'h': 158.9} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=20px; padding-bottom=20px; gap=10.24px; grid-template-columns=109.637px 109.637px 109.637px 109.637px 109.637px 109.637px 109.637px 109.65px
+  768: rect={'x': 30, 'y': 4950.4, 'w': 692.8, 'h': 280} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=20px; padding-bottom=20px; gap=12px; grid-template-columns=340.4px 340.4px
+  390: rect={'x': 16, 'y': 4359.8, 'w': 343.2, 'h': 294.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=20px; padding-bottom=20px; gap=12px; grid-template-columns=165.6px 165.6px
+
+## footerLinks
+  1440: rect={'x': 30, 'y': 5523.5, 'w': 330.4, 'h': 133.3} font=Helvetica, sans-serif, serif/26.664px/300/lh 26.3974px/ls normal/none color=rgb(0, 0, 0)
+  1024: rect={'x': 30, 'y': 4604.9, 'w': 229.5, 'h': 118.9} font=Helvetica, sans-serif, serif/23.7728px/300/lh 23.5351px/ls normal/none color=rgb(0, 0, 0)
+  768: rect={'x': 30, 'y': 4970.4, 'w': 340.4, 'h': 110} font=Helvetica, sans-serif, serif/22px/300/lh 21.78px/ls normal/none color=rgb(0, 0, 0)
+  390: rect={'x': 16, 'y': 4379.8, 'w': 165.6, 'h': 97.6} font=Helvetica, sans-serif, serif/18.5825px/300/lh 19.5116px/ls normal/none color=rgb(0, 0, 0)
+
+## footerContact
+  1440: rect={'x': 374.8, 'y': 5523.5, 'w': 502.8, 'h': 133.3} font=Helvetica, sans-serif, serif/26.664px/300/lh 26.3974px/ls normal/none color=rgb(0, 0, 0)
+  1024: rect={'x': 269.8, 'y': 4604.9, 'w': 349.4, 'h': 118.9} font=Helvetica, sans-serif, serif/23.7728px/300/lh 23.5351px/ls normal/none color=rgb(0, 0, 0)
+  768: rect={'x': 382.4, 'y': 4970.4, 'w': 340.4, 'h': 118} font=Helvetica, sans-serif, serif/22px/300/lh 21.78px/ls normal/none color=rgb(0, 0, 0)
+        padding-bottom=8px
+  390: rect={'x': 193.6, 'y': 4379.8, 'w': 165.6, 'h': 144.6} font=Helvetica, sans-serif, serif/18.5825px/300/lh 19.5116px/ls normal/none color=rgb(0, 0, 0)
+        padding-bottom=8px
+
+## footerWordmark
+  1440: rect={'x': 30, 'y': 5676.8, 'w': 1364.8, 'h': 278.9} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px; padding-bottom=8px
+  1024: rect={'x': 30, 'y': 4743.8, 'w': 948.8, 'h': 198.7} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px; padding-bottom=8px
+  768: rect={'x': 30, 'y': 5230.4, 'w': 692.8, 'h': 149.4} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px; padding-bottom=8px
+  390: rect={'x': 16, 'y': 4654, 'w': 343.2, 'h': 82.1} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=8px; padding-bottom=8px
+
+## footerLegal
+  1440: rect={'x': 30, 'y': 5975.6, 'w': 1364.8, 'h': 46.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=12px; padding-bottom=12px; margin-top=20px; border-top=0.8px solid rgb(0, 0, 0); gap=14.4px; grid-template-columns=330.4px 330.4px 330.4px 330.4px
+  1024: rect={'x': 30, 'y': 4962.5, 'w': 948.8, 'h': 59} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=12px; padding-bottom=12px; margin-top=20px; border-top=0.8px solid rgb(0, 0, 0); gap=10.24px; grid-template-columns=229.512px 229.512px 229.512px 229.525px
+  768: rect={'x': 30, 'y': 5399.8, 'w': 692.8, 'h': 58.8} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=12px; padding-bottom=12px; margin-top=20px; border-top=0.8px solid rgb(0, 0, 0); gap=7.68px; grid-template-columns=167.438px 167.438px 167.438px 167.45px
+  390: rect={'x': 16, 'y': 4756.1, 'w': 343.2, 'h': 112.5} font=Helvetica, sans-serif/16px/300/lh 24px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=12px; padding-bottom=12px; margin-top=20px; border-top=0.8px solid rgb(0, 0, 0); gap=3.904px; grid-template-columns=343.2px
+
+## footerLegalLink
+  1440: rect={'x': 30, 'y': 5989.2, 'w': 67.3, 'h': 16} font=Helvetica, sans-serif, serif/13.9792px/300/lh 13.9792px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 2px
+  1024: rect={'x': 30, 'y': 4976.9, 'w': 63.1, 'h': 14.4} font=Helvetica, sans-serif, serif/13.0931px/300/lh 13.0931px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 2px
+  768: rect={'x': 30, 'y': 5414.2, 'w': 62.7, 'h': 14.4} font=Helvetica, sans-serif, serif/13.008px/300/lh 13.008px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 2px
+  390: rect={'x': 16, 'y': 4772.1, 'w': 56.8, 'h': 12.8} font=Helvetica, sans-serif, serif/11.794px/300/lh 11.794px/ls normal/none color=rgb(0, 0, 0) deco=underline 1px off 2px
+
+## footerCopy
+  1440: rect={'x': 1064.4, 'y': 5988.4, 'w': 330.4, 'h': 22} font=Helvetica, sans-serif/13.9792px/300/lh 13.9792px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=4px; padding-bottom=4px
+  1024: rect={'x': 749.3, 'y': 4975.3, 'w': 229.5, 'h': 34.2} font=Helvetica, sans-serif/13.0931px/300/lh 13.0931px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=4px; padding-bottom=4px
+  768: rect={'x': 555.4, 'y': 5412.6, 'w': 167.4, 'h': 34} font=Helvetica, sans-serif/13.008px/300/lh 13.008px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=4px; padding-bottom=4px
+  390: rect={'x': 16, 'y': 4836.8, 'w': 343.2, 'h': 19.8} font=Helvetica, sans-serif/11.794px/300/lh 11.794px/ls normal/none color=rgb(0, 0, 0)
+        padding-top=4px; padding-bottom=4px

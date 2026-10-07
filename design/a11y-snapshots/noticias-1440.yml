@@ -1,0 +1,464 @@
+- generic [active] [ref=f26e1]:
+  - generic [ref=f26e2]:
+    - link "Skip to content" [ref=f26e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=f26e4]:
+      - link [ref=f26e6] [cursor=pointer]:
+        - /url: https://esdi.es/
+        - img "ESDI" [ref=f26e7]
+      - navigation "Main Navigation" [ref=f26e8]:
+        - button "Menú" [ref=f26e9] [cursor=pointer]
+        - button "es" [ref=f26e11] [cursor=pointer]
+    - main [ref=f26e14]:
+      - heading "Noticias" [level=1] [ref=f26e16]
+      - generic [ref=f26e17]:
+        - article [ref=f26e18]:
+          - link [ref=f26e19] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-sede-asociada-barcelona-design-week-2026/
+            - img "ESDI, sede asociada de la Barcelona Design Week 2026" [ref=f26e20]
+          - generic [ref=f26e21]:
+            - generic [ref=f26e22]:
+              - link "Acuerdos" [ref=f26e23] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/acuerdos/
+              - text: /
+              - link "ESDI" [ref=f26e24] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Eventos" [ref=f26e25] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/eventos/
+            - heading [level=3] [ref=f26e27]:
+              - link "ESDI será sede asociada de la Barcelona Design Week 2026" [ref=f26e28] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/esdi-sede-asociada-barcelona-design-week-2026/
+        - article [ref=f26e29]:
+          - link [ref=f26e30] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/lana-reciclada-nuevos-tejidos/
+            - img "Experimentación con tejidos de lana reciclada en el proyecto de ESDI y Teixits Torné" [ref=f26e31]
+          - generic [ref=f26e32]:
+            - generic [ref=f26e33]:
+              - link "Acuerdos" [ref=f26e34] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/acuerdos/
+              - text: /
+              - link "ESDI" [ref=f26e35] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+            - heading [level=3] [ref=f26e37]:
+              - link "ESDI y Teixits Torné impulsan nuevos tejidos a partir de lana reciclada posconsumo" [ref=f26e38] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/lana-reciclada-nuevos-tejidos/
+        - article [ref=f26e39]:
+          - link [ref=f26e40] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/angels-chacon-presidenta-fundit-esdi/
+            - img "Àngels Chacón, presidenta de FUNDIT, en ESDI Escola Superior de Disseny" [ref=f26e41]
+          - generic [ref=f26e42]:
+            - generic [ref=f26e43]:
+              - link "ESDI" [ref=f26e44] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Fàbrica de talent" [ref=f26e45] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/fabrica-de-talent/
+            - heading [level=3] [ref=f26e47]:
+              - link "Àngels Chacón asume la presidencia de FUNDIT para impulsar una nueva etapa de ESDI" [ref=f26e48] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/angels-chacon-presidenta-fundit-esdi/
+        - article [ref=f26e49]:
+          - link [ref=f26e50] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/premios-diseno-esdi-2026/
+          - generic [ref=f26e51]:
+            - generic [ref=f26e52]:
+              - link "Alumni del mes" [ref=f26e53] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/alumni-del-mes/
+              - text: /
+              - link "Diseño de Interiores" [ref=f26e54] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-interiores/
+              - text: /
+              - link "Diseño gráfico" [ref=f26e55] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-grafico/
+              - text: /
+              - link "Premios" [ref=f26e56] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/premios/
+            - heading [level=3] [ref=f26e58]:
+              - link "El talento de ESDI, reconocido en los principales premios de diseño de 2026" [ref=f26e59] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/premios-diseno-esdi-2026/
+        - article [ref=f26e60]:
+          - link [ref=f26e61] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-degree-fashion-show-2026-limitless-la-roca-village/
+          - generic [ref=f26e62]:
+            - generic [ref=f26e63]:
+              - link "Diseño de Moda" [ref=f26e64] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-moda/
+              - text: /
+              - link "Eventos" [ref=f26e65] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/eventos/
+              - text: /
+              - link "Grado en Diseño" [ref=f26e66] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/grado-en-diseno/
+            - heading [level=3] [ref=f26e68]:
+              - 'link "LIMIT(LESS): el ESDI Degree Fashion Show 2026 presenta el talento emergente de moda en La Roca Village" [ref=f26e69] [cursor=pointer]':
+                - /url: https://esdi.es/noticias/esdi-degree-fashion-show-2026-limitless-la-roca-village/
+        - article [ref=f26e70]:
+          - link [ref=f26e71] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-volvera-a-desfilar-en-el-festival-cruilla-de-la-mano-de-080/
+            - img "ESDI volverá a desfilar en el Festival Cruïlla 2026 de la mano de 080 Barcelona Fashion" [ref=f26e72]
+          - generic [ref=f26e73]:
+            - generic [ref=f26e74]:
+              - link "Diseño de Moda" [ref=f26e75] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-moda/
+              - text: /
+              - link "ESDI" [ref=f26e76] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Eventos" [ref=f26e77] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/eventos/
+              - text: /
+              - link "Grado en Diseño" [ref=f26e78] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/grado-en-diseno/
+            - heading [level=3] [ref=f26e80]:
+              - link "ESDI volverá a desfilar en el Festival Cruïlla de la mano de 080" [ref=f26e81] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/esdi-volvera-a-desfilar-en-el-festival-cruilla-de-la-mano-de-080/
+        - article [ref=f26e82]:
+          - link [ref=f26e83] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-presenta-limitless-su-degree-fashion-show-2026-en-la-roca-village/
+            - img "Desfile ESDI Degree Fashion Show 2026 Limit(less) en La Roca Village" [ref=f26e84]
+          - generic [ref=f26e85]:
+            - generic [ref=f26e86]:
+              - link "Diseño de Moda" [ref=f26e87] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-moda/
+              - text: /
+              - link "ESDI" [ref=f26e88] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Eventos" [ref=f26e89] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/eventos/
+            - heading [level=3] [ref=f26e91]:
+              - link "ESDI presenta Limit(less), su Degree Fashion Show 2026 en La Roca Village" [ref=f26e92] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/esdi-presenta-limitless-su-degree-fashion-show-2026-en-la-roca-village/
+        - article [ref=f26e93]:
+          - link [ref=f26e94] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-organiza-whats-next-una-jornada-sobre-ia-y-diseno-grafico/
+            - img "jornada what's next ia diseño esdi sabadell" [ref=f26e95]
+          - generic [ref=f26e96]:
+            - generic [ref=f26e97]:
+              - link "Diseño Audiovisual" [ref=f26e98] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-audiovisual/
+              - text: /
+              - link "Diseño gráfico" [ref=f26e99] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-grafico/
+              - text: /
+              - link "ESDI" [ref=f26e100] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+            - heading [level=3] [ref=f26e102]:
+              - link "ESDI organiza “What’s Next?”, una jornada sobre IA y diseño gráfico" [ref=f26e103] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/esdi-organiza-whats-next-una-jornada-sobre-ia-y-diseno-grafico/
+        - article [ref=f26e104]:
+          - link [ref=f26e105] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/fading-la-exposicion/
+            - img "mapa fading la exposicion" [ref=f26e106]
+          - generic [ref=f26e107]:
+            - generic [ref=f26e108]:
+              - link "Diseño de Moda" [ref=f26e109] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-moda/
+              - text: /
+              - link "ESDI" [ref=f26e110] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Eventos" [ref=f26e111] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/eventos/
+            - heading [level=3] [ref=f26e113]:
+              - 'link "FADING: LA EXPOSICIÓN" [ref=f26e114] [cursor=pointer]':
+                - /url: https://esdi.es/noticias/fading-la-exposicion/
+        - article [ref=f26e115]:
+          - link [ref=f26e116] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-finalista-en-los-premios-habitacola-2026/
+            - img "esdi finalista premis habitacola 2026 arquin-fad" [ref=f26e117]
+          - generic [ref=f26e118]:
+            - generic [ref=f26e119]:
+              - link "Diseño de Interiores" [ref=f26e120] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-interiores/
+              - text: /
+              - link "ESDI" [ref=f26e121] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Premios" [ref=f26e122] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/premios/
+            - heading [level=3] [ref=f26e124]:
+              - link "ESDI, finalista en los Premios Habitácola 2026 con dos proyectos" [ref=f26e125] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/esdi-finalista-en-los-premios-habitacola-2026/
+        - article [ref=f26e126]:
+          - link [ref=f26e127] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-en-imagenes/
+            - img "esdi en imágenes proyecto del grado en diseño" [ref=f26e128]
+          - generic [ref=f26e129]:
+            - generic [ref=f26e130]:
+              - link "ESDI" [ref=f26e131] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Grado en Diseño" [ref=f26e132] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/grado-en-diseno/
+            - heading [level=3] [ref=f26e134]:
+              - 'link "ESDI en imágenes: Crónica visual de su vida académica y cultural" [ref=f26e135] [cursor=pointer]':
+                - /url: https://esdi.es/noticias/esdi-en-imagenes/
+        - article [ref=f26e136]:
+          - link [ref=f26e137] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-gana-work-forward-award-showroom-ibq-textiles/
+            - img "Showroom de IBQ Textiles diseñado por estudiantes del Grado en Diseño de Interiores de ESDI" [ref=f26e138]
+          - generic [ref=f26e139]:
+            - generic [ref=f26e140]:
+              - link "Diseño de Interiores" [ref=f26e141] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-interiores/
+              - text: /
+              - link "ESDI" [ref=f26e142] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Premios" [ref=f26e143] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/premios/
+            - heading [level=3] [ref=f26e145]:
+              - link "ESDI gana un Work Forward Award por el showroom de IBQ Textiles" [ref=f26e146] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/esdi-gana-work-forward-award-showroom-ibq-textiles/
+        - article [ref=f26e147]:
+          - link [ref=f26e148] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/desfile-moda-fading-esdi-sabadell/
+            - img "fading desfile moda sabadell esdi 2026" [ref=f26e149]
+          - generic [ref=f26e150]:
+            - generic [ref=f26e151]:
+              - link "Diseño de Moda" [ref=f26e152] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-moda/
+              - text: /
+              - link "ESDI" [ref=f26e153] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Eventos" [ref=f26e154] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/eventos/
+            - heading [level=3] [ref=f26e156]:
+              - link "ESDI convertirá el centro de Sabadell en una pasarela con el desfile ‘FADING’" [ref=f26e157] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/desfile-moda-fading-esdi-sabadell/
+        - article [ref=f26e158]:
+          - link [ref=f26e159] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/concurso-arquitectura-rehabilitacion-sede-esdi-sabadell/
+            - img "edificio docks sabadell escuela superior de diseño esdi" [ref=f26e160]
+          - generic [ref=f26e161]:
+            - link "ESDI" [ref=f26e163] [cursor=pointer]:
+              - /url: https://esdi.es/noticias/category/esdi/
+            - heading [level=3] [ref=f26e165]:
+              - link "ESDI convoca un concurso de arquitectura para rehabilitar su sede de Sabadell" [ref=f26e166] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/concurso-arquitectura-rehabilitacion-sede-esdi-sabadell/
+        - article [ref=f26e167]:
+          - link [ref=f26e168] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/eulalia-esdi-gaudeamus-projecta/
+            - img "Proyecto final de grado Eulàlia de Marta Moreno Pineda, seleccionado en Gaudeamus Projecta" [ref=f26e169]
+          - generic [ref=f26e170]:
+            - generic [ref=f26e171]:
+              - link "Alumni" [ref=f26e172] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/alumni/
+              - text: /
+              - link "Diseño gráfico" [ref=f26e173] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-grafico/
+              - text: /
+              - link "ESDI" [ref=f26e174] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Premios" [ref=f26e175] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/premios/
+            - heading [level=3] [ref=f26e177]:
+              - link "El proyecto ‘Eulàlia. Manifest Nº 1’, seleccionado en los Gaudeamus Projecta" [ref=f26e178] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/eulalia-esdi-gaudeamus-projecta/
+        - article [ref=f26e179]:
+          - link [ref=f26e180] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-reinterpreta-el-arte-del-museu-dart-de-sabadell/
+            - img "Colaboración ESDI X Museu d'art de sabadell" [ref=f26e181]
+          - generic [ref=f26e182]:
+            - link "ESDI" [ref=f26e184] [cursor=pointer]:
+              - /url: https://esdi.es/noticias/category/esdi/
+            - heading [level=3] [ref=f26e186]:
+              - link "ESDI reinterpreta el arte del Museu d’Art de Sabadell" [ref=f26e187] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/esdi-reinterpreta-el-arte-del-museu-dart-de-sabadell/
+        - article [ref=f26e188]:
+          - link [ref=f26e189] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-acoge-la-comision-de-empresas-dialogo-entre-generacion-z-y-empresa/
+          - generic [ref=f26e190]:
+            - generic [ref=f26e191]:
+              - link "ESDI" [ref=f26e192] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Eventos" [ref=f26e193] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/eventos/
+            - heading [level=3] [ref=f26e195]:
+              - 'link "ESDI acoge la Comisión de Empresas: Diálogo entre Generación Z y empresa" [ref=f26e196] [cursor=pointer]':
+                - /url: https://esdi.es/noticias/esdi-acoge-la-comision-de-empresas-dialogo-entre-generacion-z-y-empresa/
+        - article [ref=f26e197]:
+          - link [ref=f26e198] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-inaugura-dos-exposiciones-de-arte-digital/
+            - img "exposición de arte digital en ESDI" [ref=f26e199]
+          - generic [ref=f26e200]:
+            - generic [ref=f26e201]:
+              - link "Comisariado Arte Digital" [ref=f26e202] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/comisariado-arte-digital/
+              - text: /
+              - link "ESDI" [ref=f26e203] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Eventos" [ref=f26e204] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/eventos/
+            - heading [level=3] [ref=f26e206]:
+              - link "ESDI inaugura dos exposiciones de arte digital" [ref=f26e207] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/esdi-inaugura-dos-exposiciones-de-arte-digital/
+        - article [ref=f26e208]:
+          - link [ref=f26e209] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-desfila-barcelona-bridal-night-stephane-rolland/
+            - img "Estudiantes de moda de ESDI en la pasarela de la Barcelona Bridal Night de Barcelona Bridal Fashion Week junto a Stéphane Rolland" [ref=f26e210]
+          - generic [ref=f26e211]:
+            - generic [ref=f26e212]:
+              - link "Ciclos Formativos Grado Superior" [ref=f26e213] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/ciclo-formativo-grado-superior/
+              - text: /
+              - link "Diseño de Moda" [ref=f26e214] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-moda/
+              - text: /
+              - link "ESDI" [ref=f26e215] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Eventos" [ref=f26e216] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/eventos/
+            - heading [level=3] [ref=f26e218]:
+              - link "ESDI desfila en la Bridal Night de Barcelona Bridal Fashion Week junto a Stéphane Rolland" [ref=f26e219] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/esdi-desfila-barcelona-bridal-night-stephane-rolland/
+        - article [ref=f26e220]:
+          - link [ref=f26e221] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/8-proyectos-de-esdi-seleccionados-en-los-premios-adg-laus-2026/
+            - img "Proyectos ESDI seleccionados en los Premios ADG Laus 2026" [ref=f26e222]
+          - generic [ref=f26e223]:
+            - generic [ref=f26e224]:
+              - link "ESDI" [ref=f26e225] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Premios" [ref=f26e226] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/premios/
+            - heading [level=3] [ref=f26e228]:
+              - link "8 proyectos de ESDI, seleccionados en los Premios ADG Laus 2026" [ref=f26e229] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/8-proyectos-de-esdi-seleccionados-en-los-premios-adg-laus-2026/
+        - article [ref=f26e230]:
+          - link [ref=f26e231] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/nueva-edicion-del-esdi-fest/
+            - img "Cartel del ESDI FEST con la programación de ponentes, proyectos de estudiantes y actividades del 16 de abril" [ref=f26e232]
+          - generic [ref=f26e233]:
+            - generic [ref=f26e234]:
+              - link "ESDI" [ref=f26e235] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Eventos" [ref=f26e236] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/eventos/
+            - heading [level=3] [ref=f26e238]:
+              - link "Nueva edición del ESDI FEST" [ref=f26e239] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/nueva-edicion-del-esdi-fest/
+        - article [ref=f26e240]:
+          - link [ref=f26e241] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/esdi-recibe-el-premio-floc-de-llana-y-refuerza-su-vinculo-con-la-industria-textil-y-la-innovacion/
+          - generic [ref=f26e242]:
+            - generic [ref=f26e243]:
+              - link "ESDI" [ref=f26e244] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/esdi/
+              - text: /
+              - link "Premios" [ref=f26e245] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/premios/
+            - heading [level=3] [ref=f26e247]:
+              - link "ESDI recibe el Premio Floc de Llana y refuerza su vínculo con la industria textil y la innovación" [ref=f26e248] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/esdi-recibe-el-premio-floc-de-llana-y-refuerza-su-vinculo-con-la-industria-textil-y-la-innovacion/
+        - article [ref=f26e249]:
+          - link [ref=f26e250] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/javier-guijarro-alumni-esdi-lleva-su-coleccion-f-w-2026-a-paris-durante-la-fashion-week/
+          - generic [ref=f26e251]:
+            - generic [ref=f26e252]:
+              - link "Alumni" [ref=f26e253] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/alumni/
+              - text: /
+              - link "Diseño de Moda" [ref=f26e254] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-moda/
+              - text: /
+              - link "Grado en Diseño" [ref=f26e255] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/grado-en-diseno/
+            - heading [level=3] [ref=f26e257]:
+              - link "Javier Guijarro, alumni ESDI, lleva su colección F/W 2026 a Paris durante la Fashion Week" [ref=f26e258] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/javier-guijarro-alumni-esdi-lleva-su-coleccion-f-w-2026-a-paris-durante-la-fashion-week/
+        - article [ref=f26e259]:
+          - link [ref=f26e260] [cursor=pointer]:
+            - /url: https://esdi.es/noticias/toni-pons-esdi-coleccion-capsula-costa-brava/
+          - generic [ref=f26e261]:
+            - generic [ref=f26e262]:
+              - link "Diseño de calzado" [ref=f26e263] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-calzado/
+              - text: /
+              - link "Diseño de Moda" [ref=f26e264] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-moda/
+              - text: /
+              - link "Diseño de Producto" [ref=f26e265] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-de-producto/
+              - text: /
+              - link "Diseño gráfico" [ref=f26e266] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/diseno-grafico/
+              - text: /
+              - link "Grado en Diseño" [ref=f26e267] [cursor=pointer]:
+                - /url: https://esdi.es/noticias/category/grado-en-diseno/
+            - heading [level=3] [ref=f26e269]:
+              - 'link "Toni Pons x ESDI: Llega la nueva cápsula Costa Brava" [ref=f26e270] [cursor=pointer]':
+                - /url: https://esdi.es/noticias/toni-pons-esdi-coleccion-capsula-costa-brava/
+    - contentinfo [ref=f26e272]:
+      - img "ESDI Escola Superior de Disseny" [ref=f26e274]
+      - generic [ref=f26e275]:
+        - navigation "Footer Menu" [ref=f26e277]:
+          - list [ref=f26e279]:
+            - listitem [ref=f26e280]:
+              - link "Campus virtual" [ref=f26e281] [cursor=pointer]:
+                - /url: https://esdi.classlife.education
+            - listitem [ref=f26e282]:
+              - link "Plataforma Alumni" [ref=f26e283] [cursor=pointer]:
+                - /url: http://alumni.esdi.es
+            - listitem [ref=f26e284]:
+              - link "Becas y ayudas" [ref=f26e285] [cursor=pointer]:
+                - /url: https://esdi.es/becas-ayudas/
+            - listitem [ref=f26e286]:
+              - link "Trabaja en ESDI" [ref=f26e287] [cursor=pointer]:
+                - /url: https://esdi.es/trabaja-en-esdi/
+            - listitem [ref=f26e288]:
+              - link "Media kit" [ref=f26e289] [cursor=pointer]:
+                - /url: https://esdi.es/media-kit/
+        - paragraph [ref=f26e291]:
+          - text: ESDI Sabadell (sede) Marquès de Comillas, 81–83 08202 Sabadell
+          - link "+34 93 727 48 19" [ref=f26e292] [cursor=pointer]:
+            - /url: tel:+34937274819
+          - text: 8.15 – 21.00 h
+        - paragraph [ref=f26e294]:
+          - text: ESDI Barcelona Diputació, 337 08009 Barcelona
+          - link "+34 93 416 00 00" [ref=f26e295] [cursor=pointer]:
+            - /url: tel:+34934160000
+          - text: 8.30 – 21.00 h
+        - navigation "Footer Menu Social" [ref=f26e297]:
+          - list [ref=f26e299]:
+            - listitem [ref=f26e300]:
+              - link "Instagram" [ref=f26e301] [cursor=pointer]:
+                - /url: https://www.instagram.com/esdi.es/
+            - listitem [ref=f26e302]:
+              - link "LinkedIn" [ref=f26e303] [cursor=pointer]:
+                - /url: https://www.linkedin.com/school/escola-superior-de-disseny-esdi/
+            - listitem [ref=f26e304]:
+              - link "YouTube" [ref=f26e305] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/ESDisseny
+            - listitem [ref=f26e306]:
+              - link "TikTok" [ref=f26e307] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@esdi.es
+            - listitem [ref=f26e308]:
+              - link "Threads" [ref=f26e309] [cursor=pointer]:
+                - /url: https://www.threads.com/@esdi.es
+      - img "ESDI Escola Superior de Disseny" [ref=f26e311]
+      - generic [ref=f26e312]:
+        - navigation "Footer Legal" [ref=f26e313]:
+          - list [ref=f26e315]:
+            - listitem [ref=f26e316]:
+              - link "Aviso legal" [ref=f26e317] [cursor=pointer]:
+                - /url: https://esdi.es/aviso-legal/
+            - listitem [ref=f26e318]:
+              - link "Política de privacidad" [ref=f26e319] [cursor=pointer]:
+                - /url: https://esdi.es/politica-de-privacidad/
+            - listitem [ref=f26e320]:
+              - link "Política de cookies" [ref=f26e321] [cursor=pointer]:
+                - /url: https://esdi.es/politica-de-cookies/
+            - listitem [ref=f26e322]:
+              - link "Buzón de sugerencias" [ref=f26e323] [cursor=pointer]:
+                - /url: https://esdi.es/buzon-de-sugerencias/
+        - paragraph [ref=f26e325]: © 2026 ESDI Escola Superior de Disseny
+  - button "Gestionar consentimiento" [ref=f26e326] [cursor=pointer]

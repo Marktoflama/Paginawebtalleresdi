@@ -1,0 +1,17 @@
+{
+  // GitHub Codespaces / VS Code Dev Containers: opens the project ready to run,
+  // with the dev server on port 3000 (no Supabase needed for a first look).
+  "name": "Taller · Reservas",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "postCreateCommand": "npm ci",
+  "postAttachCommand": "npm run dev",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Taller (Next.js)", "onAutoForward": "openPreview" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "bradlc.vscode-tailwindcss"]
+    }
+  }
+}
