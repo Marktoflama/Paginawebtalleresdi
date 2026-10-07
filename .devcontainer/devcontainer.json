@@ -7,7 +7,7 @@
   "postAttachCommand": "npm run dev",
   "forwardPorts": [3000],
   "portsAttributes": {
-    "3000": { "label": "Taller (Next.js)", "onAutoForward": "openPreview" }
+    "3000": { "label": "Taller (Next.js)", "onAutoForward": "openBrowser" }
   },
   "customizations": {
     "vscode": {
